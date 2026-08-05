@@ -196,6 +196,20 @@ h1,h2,h3,p{margin:0;}
 .btn-kakao:hover{ background:#f7d900; transform:translateY(-2px); }
 .btn-kakao svg{ flex-shrink:0; }
 
+.mid-cta{ padding:48px 0; background:var(--navy-900); }
+.mid-cta-inner{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:center;
+  gap:20px;
+}
+.mid-cta-text{
+  color:#fff;
+  font-size:20px;
+  font-weight:700;
+}
+
 /* ===== Section shell ===== */
 .section{ padding:96px 0; }
 .section-alt{ background:var(--ice); }
