@@ -146,7 +146,7 @@ h1,h2,h3,p{margin:0;}
   background:
     radial-gradient(1200px 600px at 85% -10%, rgba(216,103,47,0.12), transparent 60%),
     linear-gradient(180deg, var(--ice) 0%, var(--white) 100%);
-  padding:120px 0 96px;
+  padding:120px 0 48px;
 }
 .hero-inner{
   display:flex;
@@ -166,6 +166,9 @@ h1,h2,h3,p{margin:0;}
   font-weight:800;
   color:var(--navy-900);
   letter-spacing:-0.01em;
+}
+.hero h1 strong{
+  color:var(--accent);
 }
 .hero-sub{
   margin-top:22px;
@@ -199,7 +202,7 @@ h1,h2,h3,p{margin:0;}
 .section-eyebrow{
   color:var(--accent);
   font-weight:700;
-  font-size:17px;
+  font-size:22px;
   letter-spacing:.04em;
   margin-bottom:14px;
   text-transform:uppercase;
