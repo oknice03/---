@@ -774,6 +774,9 @@ h1,h2,h3,p{margin:0;}
   .compare-row:not(.compare-head):hover{ transform:scale(1.02); }
   .contact-info{ flex-direction:column; gap:10px; }
   .lightbox-nav{ width:40px;height:40px; }
+  .br-desktop{ display:none; }
+  .hero h1 br,
+  .contact-title br{ display:none; }
 }
 
 @media (max-width: 480px){
