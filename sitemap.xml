@@ -1,9 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://www.pptbranding.com/</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.pptbranding.com/assets/img/portfolio/01.jpg</image:loc>
+      <image:title>우주항공 기업 회사소개서 제작 사례</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pptbranding.com/assets/img/portfolio/02.jpg</image:loc>
+      <image:title>제조업 기업 회사소개서 제작 사례</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pptbranding.com/assets/img/portfolio/03.jpg</image:loc>
+      <image:title>산업 제조 회사소개서 제작 사례</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pptbranding.com/assets/img/portfolio/04.jpg</image:loc>
+      <image:title>물류 · 유통 회사소개서 제작 사례</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pptbranding.com/assets/img/portfolio/05.jpg</image:loc>
+      <image:title>건설 · 시공 회사소개서 제작 사례</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pptbranding.com/assets/img/portfolio/06.jpg</image:loc>
+      <image:title>제조업 기업 회사소개서 제작 사례</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pptbranding.com/assets/img/portfolio/07.jpg</image:loc>
+      <image:title>서비스업 회사소개서 제작 사례</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pptbranding.com/assets/img/portfolio/08.jpg</image:loc>
+      <image:title>산업 제조 회사소개서 제작 사례</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pptbranding.com/assets/img/portfolio/09.jpg</image:loc>
+      <image:title>IT · 기술 회사소개서 제작 사례</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pptbranding.com/assets/img/portfolio/10.jpg</image:loc>
+      <image:title>제조업 기업 회사소개서 제작 사례</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pptbranding.com/assets/img/portfolio/11.jpg</image:loc>
+      <image:title>유통 · 물류 회사소개서 제작 사례</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pptbranding.com/assets/img/portfolio/12.jpg</image:loc>
+      <image:title>제조업 기업 회사소개서 제작 사례</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pptbranding.com/assets/img/portfolio/13.jpg</image:loc>
+      <image:title>서비스업 회사소개서 제작 사례</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pptbranding.com/assets/img/portfolio/14.jpg</image:loc>
+      <image:title>산업 제조 회사소개서 제작 사례</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pptbranding.com/assets/img/portfolio/15.jpg</image:loc>
+      <image:title>건설 · 시공 회사소개서 제작 사례</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pptbranding.com/assets/img/portfolio/16.jpg</image:loc>
+      <image:title>제조업 기업 회사소개서 제작 사례</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pptbranding.com/assets/img/portfolio/17.jpg</image:loc>
+      <image:title>IT · 기술 회사소개서 제작 사례</image:title>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.pptbranding.com/assets/img/portfolio/18.jpg</image:loc>
+      <image:title>산업 제조 회사소개서 제작 사례</image:title>
+    </image:image>
   </url>
 </urlset>
