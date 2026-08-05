@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.pptbranding.com/sitemap.xml
+Sitemap: https://pptbranding.com/sitemap.xml
