@@ -33,34 +33,15 @@
     link.addEventListener("click", closeNav);
   });
 
-  /* ---- Portfolio grid + lightbox ---- */
-  var PORTFOLIO_COUNT = 18;
-  var PORTFOLIO_LABELS = [
-    "우주항공 기업", "제조업 기업", "산업 제조", "물류 · 유통", "건설 · 시공",
-    "제조업 기업", "서비스업", "산업 제조", "IT · 기술", "제조업 기업",
-    "유통 · 물류", "제조업 기업", "서비스업", "산업 제조",
-    "건설 · 시공", "제조업 기업", "IT · 기술", "산업 제조"
-  ];
-
-  var portfolioImages = [];
-  for (var i = 1; i <= PORTFOLIO_COUNT; i++) {
-    var num = String(i).padStart(2, "0");
-    portfolioImages.push({
-      src: "assets/img/portfolio/" + num + ".jpg",
-      label: PORTFOLIO_LABELS[i - 1] || "제작 사례"
-    });
-  }
-
+  /* ---- Portfolio lightbox (grid markup is static in HTML for SEO/crawlers) ---- */
   var grid = document.getElementById("portfolioGrid");
-  portfolioImages.forEach(function (item, idx) {
-    var div = document.createElement("div");
-    div.className = "portfolio-item";
-    div.setAttribute("data-index", idx);
-    div.innerHTML =
-      '<img src="' + item.src + '" alt="' + item.label + ' 회사소개서 제작 사례" loading="lazy">' +
-      '<span class="portfolio-label">' + item.label + "</span>";
-    grid.appendChild(div);
-  });
+  var portfolioImages = Array.prototype.map.call(
+    grid.querySelectorAll(".portfolio-item"),
+    function (item) {
+      var img = item.querySelector("img");
+      return { src: img.getAttribute("src"), label: item.querySelector(".portfolio-label").textContent };
+    }
+  );
 
   /* ---- Lightbox ---- */
   var lightbox = document.getElementById("lightbox");
