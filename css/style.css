@@ -249,7 +249,35 @@ h1,h2,h3,p{margin:0;}
   border:6px solid var(--white);
   box-shadow:0 20px 45px rgba(15,32,56,0.18);
 }
+.cert-badge{
+  position:absolute;
+  bottom:2px;
+  left:50%;
+  transform:translateX(-50%);
+  background:var(--accent);
+  color:#fff;
+  font-size:12px;
+  font-weight:700;
+  padding:6px 14px;
+  border-radius:999px;
+  white-space:nowrap;
+  box-shadow:0 8px 20px rgba(216,103,47,0.35);
+}
 .about-intro-text{ flex:1 1 auto; min-width:280px; }
+.client-logos{
+  display:flex;
+  flex-wrap:wrap;
+  gap:16px;
+  align-items:center;
+  margin-top:14px;
+}
+.client-logos:empty{ display:none; }
+.client-logos img{
+  height:28px;
+  width:auto;
+  object-fit:contain;
+  opacity:.85;
+}
 .about-intro-text .section-title{ max-width:none; }
 .philosophy{
   margin:28px 0 0;
