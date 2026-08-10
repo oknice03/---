@@ -690,6 +690,8 @@ h1,h2,h3,p{margin:0;}
   color:rgba(255,255,255,0.45);
   font-size:12.5px;
 }
+.footer-link{ text-decoration:underline; text-underline-offset:2px; }
+.footer-link:hover{ color:rgba(255,255,255,0.8); }
 
 /* ===== Lightbox ===== */
 .lightbox{
