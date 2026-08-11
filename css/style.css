@@ -351,56 +351,44 @@ h1,h2,h3,p{margin:0;}
 }
 
 /* ===== Compare table ===== */
-.compare-table{
+.compare-list{
   margin-top:44px;
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:16px;
+}
+.compare-item{
   border:1px solid var(--border);
   border-radius:var(--radius);
   background:var(--white);
+  padding:22px 24px;
 }
-.compare-head .compare-cell:first-child{ border-top-left-radius:var(--radius); }
-.compare-head .compare-cell:last-child{ border-top-right-radius:var(--radius); }
-.compare-row:last-child .compare-cell:first-child{ border-bottom-left-radius:var(--radius); }
-.compare-row:last-child .compare-cell:last-child{ border-bottom-right-radius:var(--radius); }
-.compare-row{
-  display:grid;
-  grid-template-columns:180px 1fr 1fr;
-  transition:transform .2s ease, box-shadow .2s ease;
-  position:relative;
-}
-.compare-row:not(.compare-head):hover{
-  transform:scale(1.03);
-  box-shadow:0 12px 30px rgba(15,32,56,0.16);
-  z-index:1;
-}
-.compare-row + .compare-row{ border-top:1px solid var(--border); }
-.compare-cell{
-  padding:20px 22px;
-  font-size:14.5px;
-}
-.compare-head .compare-cell{
-  font-weight:700;
-  padding:16px 22px;
-  font-size:13px;
-  letter-spacing:.03em;
-}
-.compare-head{ background:#52525b; }
-.compare-head .compare-label{ color:var(--navy-900); }
-.compare-head .compare-us{ color:var(--navy-800); }
-.compare-head .compare-them{ color:var(--white); }
-.compare-label{
-  font-weight:700;
+.compare-item-label{
+  font-size:14px;
+  font-weight:800;
   color:var(--navy-900);
-  background:var(--ice);
-  display:flex;
-  align-items:center;
+  margin-bottom:12px;
 }
-.compare-row:not(.compare-head) .compare-label{ background:var(--ice); }
+.compare-us, .compare-them{
+  display:flex;
+  align-items:flex-start;
+  gap:8px;
+  font-size:14.5px;
+  line-height:1.6;
+}
 .compare-us{
-  color:var(--accent);
-  background:#fff7f1;
+  color:var(--navy-800);
   font-weight:700;
+  margin-bottom:8px;
 }
 .compare-them{ color:var(--muted); }
+.mark{
+  flex-shrink:0;
+  font-weight:800;
+  font-size:14px;
+}
+.mark-good{ color:var(--accent); }
+.mark-bad{ color:var(--muted); }
 
 /* ===== Services ===== */
 .service-grid{
@@ -426,16 +414,6 @@ h1,h2,h3,p{margin:0;}
   font-size:14px;
   font-weight:800;
   color:var(--accent);
-}
-.service-tag{
-  display:inline-block;
-  margin-left:10px;
-  padding:3px 10px;
-  border-radius:999px;
-  background:var(--ice);
-  color:var(--navy-700);
-  font-size:12px;
-  font-weight:700;
 }
 .service-card h3{
   margin-top:10px;
@@ -805,8 +783,6 @@ h1,h2,h3,p{margin:0;}
   .timeline, .service-grid, .tip-grid{ grid-template-columns:1fr; }
   .portfolio-grid{ grid-template-columns:repeat(2,1fr); }
   .review-grid{ grid-template-columns:1fr; }
-  .compare-row{ grid-template-columns:130px 1fr 1fr; }
-  .compare-cell{ padding:16px; font-size:13.5px; }
   .about-intro{ flex-direction:column; text-align:center; gap:24px; }
   .about-intro-text .philosophy{ text-align:left; }
 }
@@ -850,16 +826,7 @@ h1,h2,h3,p{margin:0;}
   .hero{ padding:88px 0 64px; }
   .section{ padding:64px 0; }
   .portfolio-grid{ grid-template-columns:1fr 1fr; }
-  .compare-row{ grid-template-columns:1fr; }
-  .compare-head{ display:none; }
-  .compare-label{ font-size:13px; padding:12px 16px; }
-  .compare-us, .compare-them{ padding:14px 16px; }
-  .compare-row:not(.compare-head) .compare-us::before{ content:"피피티브랜딩  "; color:var(--accent); font-weight:700; }
-  .compare-row:not(.compare-head) .compare-them::before{ content:"타사  "; color:var(--muted); font-weight:700; }
-  .compare-head + .compare-row .compare-cell:first-child{ border-top-left-radius:var(--radius); border-top-right-radius:var(--radius); }
-  .compare-row:last-child .compare-cell:first-child{ border-bottom-left-radius:0; }
-  .compare-row:last-child .compare-cell:last-child{ border-bottom-left-radius:var(--radius); border-bottom-right-radius:var(--radius); }
-  .compare-row:not(.compare-head):hover{ transform:scale(1.02); }
+  .compare-list{ grid-template-columns:1fr; }
   .contact-info{ flex-direction:column; gap:10px; }
   .lightbox-nav{ width:40px;height:40px; }
   .br-desktop{ display:none; }
