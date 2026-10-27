@@ -3,3 +3,23 @@
 *.Zip
 포트폴리오이미지/
 .claude/
+dist/
+.netlify/
+node_modules/
+
+# Only reviewed public case images may be uploaded to this public repository.
+/assets/img/cases/*
+!/assets/img/cases/259-01.jpg
+!/assets/img/cases/259-04.jpg
+!/assets/img/cases/259-05.jpg
+!/assets/img/cases/259-06.jpg
+!/assets/img/cases/293-01.jpg
+!/assets/img/cases/293-03.jpg
+!/assets/img/cases/293-05.jpg
+!/assets/img/cases/291-01.jpg
+!/assets/img/cases/291-02.jpg
+!/assets/img/cases/291-03.jpg
+!/assets/img/cases/291-04.jpg
+!/assets/img/cases/286-01-public.png
+!/assets/img/cases/286-02.jpg
+!/assets/img/cases/286-04.jpg
