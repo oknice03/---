@@ -1,0 +1,99 @@
+{
+  "slug": "raon-cleaning-profile",
+  "status": "ready",
+  "order": -19,
+  "title": "라온클린 산업설비 클리닝 회사소개서",
+  "category": "산업설비·클리닝",
+  "summary": "산업설비 클리닝 서비스를 그림과 설명으로 풀었습니다. 사업 범위와 작업 방식을 최종 내지 3장에 담았습니다.",
+  "updated": "2026-10-27",
+  "source": "2026년 완성 폴더의 PowerPoint 원본을 읽기 전용으로 PNG 직접 내보내기. 표지와 선별 내지의 출처·원본 해시는 홈페이지 팀 비공개 작업기록에 보관. 설명은 완성본에서 확인한 구성과 디자인만 기술하며 인터뷰·원고 작성 범위는 미확인.",
+  "storyKind": "design",
+  "layout": "curated-gallery",
+  "cardImage": {
+    "src": "/assets/img/mockups/raon-cleaning-profile-cover-v1.png",
+    "alt": "라온클린 실제 완성 표지를 포함한 책자 AI 목업",
+    "caption": "실제 완성본 표지를 배치한 AI 목업이며 인쇄물 촬영 사진이 아닙니다.",
+    "kind": "mockup",
+    "includesCover": true,
+    "generated": true
+  },
+  "cardSummary": "산업설비 클리닝 서비스를 그림과 설명으로 풀었습니다.",
+  "images": [
+    {
+      "src": "/assets/img/mockups/raon-cleaning-profile-cover-v1.png",
+      "alt": "라온클린 실제 완성 표지를 포함한 책자 AI 목업",
+      "caption": "실제 완성본 표지를 배치한 AI 목업이며 인쇄물 촬영 사진이 아닙니다.",
+      "kind": "mockup",
+      "includesCover": true,
+      "generated": true
+    },
+    {
+      "src": "/assets/img/final/raon-cleaning-profile/page-07.png",
+      "alt": "라온클린 클리닝 사업 소개 실제 완성 페이지",
+      "caption": "완성본에서 선별한 클리닝 사업 소개 페이지입니다. 페이지 속 이미지는 문서의 디자인 표현으로, 실제 현장 촬영 여부를 별도로 확인한 사진은 아닙니다.",
+      "width": 1100,
+      "height": 1589,
+      "kind": "final"
+    },
+    {
+      "src": "/assets/img/final/raon-cleaning-profile/page-08.png",
+      "alt": "라온클린 산업설비 내부 클리닝 실제 완성 페이지",
+      "caption": "완성본에서 선별한 산업설비 내부 클리닝 페이지입니다. 페이지 속 이미지는 문서의 디자인 표현으로, 실제 현장 촬영 여부를 별도로 확인한 사진은 아닙니다.",
+      "width": 1100,
+      "height": 1589,
+      "kind": "final"
+    },
+    {
+      "src": "/assets/img/final/raon-cleaning-profile/page-05.png",
+      "alt": "라온클린 비전과 경영방침 실제 완성 페이지",
+      "caption": "완성본에서 선별한 비전과 경영방침 페이지입니다. 페이지 속 이미지는 문서의 디자인 표현으로, 실제 현장 촬영 여부를 별도로 확인한 사진은 아닙니다.",
+      "width": 1100,
+      "height": 1589,
+      "kind": "final"
+    }
+  ],
+  "sections": [
+    {
+      "heading": "디자인 구성",
+      "text": "표지는 설비 이미지와 사선 구도로 업종을 표현했습니다. 내지는 서비스 종류와 작업 방식을 구분해 읽도록 구성했습니다."
+    },
+    {
+      "heading": "클리닝 사업 소개",
+      "text": "서비스 종류마다 설명 그림을 함께 배치했습니다. 긴 업무 목록을 구간별로 나누어 보여줍니다.",
+      "image": 1
+    },
+    {
+      "heading": "산업설비 내부 클리닝",
+      "text": "현장 문제와 수행 방식을 구분했습니다. 기대 효과는 아이콘과 짧은 문구로 정리했습니다.",
+      "image": 2
+    },
+    {
+      "heading": "비전과 경영방침",
+      "text": "큰 이미지와 어두운 색상 영역으로 비전을 강조했습니다. 경영방침은 세로 열로 나누어 비교하기 쉽게 배치했습니다.",
+      "image": 3
+    }
+  ],
+  "highlights": [
+    "산업설비 이미지를 활용한 세로형 표지",
+    "설명 그림과 텍스트를 연결한 사업 소개",
+    "문제와 수행 방식, 기대 효과를 구분한 내지"
+  ],
+  "facts": [
+    {
+      "label": "고객사",
+      "value": "라온클린"
+    },
+    {
+      "label": "제작물",
+      "value": "회사소개 자료"
+    },
+    {
+      "label": "선별 샘플",
+      "value": "최종 내지 3장"
+    }
+  ],
+  "selection": {
+    "mode": "curated",
+    "note": "연속 페이지 대신 구도와 정보 표현 방식이 다른 내지 3장 선별"
+  }
+}
