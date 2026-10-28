@@ -15,4 +15,8 @@
     const empty=document.getElementById('caseEmpty');if(empty)empty.hidden=total!==0;
   }
   search?.addEventListener('input',update);filter?.addEventListener('change',update);
+  document.querySelectorAll('[data-open-credentials]').forEach(link=>link.addEventListener('click',()=>{
+    const details=document.querySelector('.pb-credentials');
+    if(details)details.open=true;
+  }));
 })();

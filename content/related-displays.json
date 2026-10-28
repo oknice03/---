@@ -1,0 +1,116 @@
+{
+  "construction-brand-profile": {
+    "cover": "/assets/img/peer-cards/construction-brand-profile-cover.png",
+    "interiors": [
+      {
+        "src": "/assets/img/peer-cards/construction-brand-profile-page-1.png",
+        "alt": "건설·시공 브랜드 공사지명원 전문 서비스 소개 최종 디자인"
+      },
+      {
+        "src": "/assets/img/peer-cards/construction-brand-profile-page-2.png",
+        "alt": "건설·시공 브랜드 공사지명원 환경설비 프로젝트 최종 디자인"
+      },
+      {
+        "src": "/assets/img/peer-cards/construction-brand-profile-page-3.png",
+        "alt": "건설·시공 브랜드 공사지명원 미래 사업 방향 최종 디자인"
+      }
+    ],
+    "sortDate": "2025-04-04",
+    "sortBasis": "보관 원본의 연도·파일명 날짜를 작업 시점의 정렬 근거로 사용. 홈페이지 수정일과 구분."
+  },
+  "interior-design-profile": {
+    "cover": "/assets/img/peer-cards/interior-design-profile-cover.png",
+    "interiors": [
+      {
+        "src": "/assets/img/peer-cards/interior-design-profile-page-1.png",
+        "alt": "인테리어 기업 공사지명원 공간 포트폴리오 최종 디자인"
+      },
+      {
+        "src": "/assets/img/peer-cards/interior-design-profile-page-2.png",
+        "alt": "인테리어 기업 공사지명원 비전과 경영이념 최종 디자인"
+      },
+      {
+        "src": "/assets/img/peer-cards/interior-design-profile-page-3.png",
+        "alt": "인테리어 기업 공사지명원 인테리어 서비스 최종 디자인"
+      }
+    ],
+    "sortDate": "2024-04-02",
+    "sortBasis": "보관 원본의 연도·파일명 날짜를 작업 시점의 정렬 근거로 사용. 홈페이지 수정일과 구분."
+  },
+  "interior-materials-profile": {
+    "cover": "/assets/img/peer-cards/interior-materials-profile-cover.png",
+    "interiors": [
+      {
+        "src": "/assets/img/peer-cards/interior-materials-profile-page-1.png",
+        "alt": "인테리어·자재 기업 공사지명원 주방 인테리어 최종 디자인"
+      },
+      {
+        "src": "/assets/img/peer-cards/interior-materials-profile-page-2.png",
+        "alt": "인테리어·자재 기업 공사지명원 경영이념 최종 디자인"
+      },
+      {
+        "src": "/assets/img/peer-cards/interior-materials-profile-page-3.png",
+        "alt": "인테리어·자재 기업 공사지명원 서비스 소개 최종 디자인"
+      }
+    ],
+    "sortDate": "2023-01-17",
+    "sortBasis": "보관 원본의 연도·파일명 날짜를 작업 시점의 정렬 근거로 사용. 홈페이지 수정일과 구분."
+  },
+  "demolition-profile": {
+    "cover": "/assets/img/peer-cards/demolition-profile-cover.png",
+    "interiors": [
+      {
+        "src": "/assets/img/peer-cards/demolition-profile-page-1.png",
+        "alt": "철거기업 공사지명원 구조물 해체공사 최종 디자인"
+      },
+      {
+        "src": "/assets/img/peer-cards/demolition-profile-page-2.png",
+        "alt": "철거기업 공사지명원 경영이념 최종 디자인"
+      },
+      {
+        "src": "/assets/img/peer-cards/demolition-profile-page-3.png",
+        "alt": "철거기업 공사지명원 석면 해체와 제거 최종 디자인"
+      }
+    ],
+    "sortDate": "2024-10-23",
+    "sortBasis": "보관 원본의 연도·파일명 날짜를 작업 시점의 정렬 근거로 사용. 홈페이지 수정일과 구분."
+  },
+  "bridge-infrastructure-profile": {
+    "cover": "/assets/img/peer-cards/bridge-infrastructure-profile-cover.png",
+    "interiors": [
+      {
+        "src": "/assets/img/peer-cards/bridge-infrastructure-profile-page-1.png",
+        "alt": "교량·인프라 공사지명원 경영방침 최종 디자인"
+      },
+      {
+        "src": "/assets/img/peer-cards/bridge-infrastructure-profile-page-2.png",
+        "alt": "교량·인프라 공사지명원 계측 시스템 사업 최종 디자인"
+      },
+      {
+        "src": "/assets/img/peer-cards/bridge-infrastructure-profile-page-3.png",
+        "alt": "교량·인프라 공사지명원 조직 구성 최종 디자인"
+      }
+    ],
+    "sortDate": "2025-04-30",
+    "sortBasis": "보관 원본의 연도·파일명 날짜를 작업 시점의 정렬 근거로 사용. 홈페이지 수정일과 구분."
+  },
+  "building-materials-profile": {
+    "cover": "/assets/img/peer-cards/building-materials-profile-cover.png",
+    "interiors": [
+      {
+        "src": "/assets/img/peer-cards/building-materials-profile-page-1.png",
+        "alt": "건축자재 기업 공사지명원 건축 철물 사업 최종 디자인"
+      },
+      {
+        "src": "/assets/img/peer-cards/building-materials-profile-page-2.png",
+        "alt": "건축자재 기업 공사지명원 경영방침 최종 디자인"
+      },
+      {
+        "src": "/assets/img/peer-cards/building-materials-profile-page-3.png",
+        "alt": "건축자재 기업 공사지명원 특화 공사 최종 디자인"
+      }
+    ],
+    "sortDate": "2023-06-20",
+    "sortBasis": "보관 원본의 연도·파일명 날짜를 작업 시점의 정렬 근거로 사용. 홈페이지 수정일과 구분."
+  }
+}
