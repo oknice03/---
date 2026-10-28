@@ -28,9 +28,10 @@
 .mp-card-visual{aspect-ratio:1.45;background:#eef0f2;overflow:hidden;border-radius:8px}
 .mp-card img{width:100%;height:100%;object-fit:contain;transition:transform .2s}
 .mp-card a:hover img{transform:scale(1.025)}
-.mp-card-body{padding:21px 0 12px}
+.mp-card-body{padding:10px 0 0}
+.mp-card-body>.mp-category{display:block;line-height:1.5}
 .mp-category{font-size:12px;color:var(--accent-dark);font-weight:700;letter-spacing:.06em}
-.mp-card h3{font-size:20px;line-height:1.45;margin:9px 0 11px;letter-spacing:-.035em}
+.mp-card h3{font-size:20px;line-height:1.45;margin:4px 0 0;letter-spacing:-.035em}
 .mp-card p{font-size:14px;color:var(--muted);line-height:1.75}
 .mp-card-more{display:block;margin-top:18px;font-size:13px;font-weight:700}
 .mp-center{margin-top:36px;text-align:center}

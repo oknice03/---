@@ -8,7 +8,7 @@
   function update() {
     let total=0;
     document.querySelectorAll('[data-case]').forEach(card=>{
-      const matches=(!search.value||card.textContent.toLowerCase().includes(search.value.toLowerCase()))&&(!filter.value||card.dataset.category===filter.value);
+      const matches=(!search.value||(card.dataset.search||card.textContent).toLowerCase().includes(search.value.toLowerCase()))&&(!filter.value||card.dataset.category===filter.value);
       card.hidden=!matches;if(matches)total++;
     });
     if(count)count.textContent=total+'개 사례';
