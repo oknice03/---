@@ -1,6 +1,7 @@
 {
   "slug": "pressure-vessel-profile",
-  "status": "ready",
+  "status": "excluded",
+  "exclusionReason": "2026-10-29 대표 지시: 세광 회사소개서는 포트폴리오에 사용하지 않음. 원본·사례 기록은 보존하며 별도 승인 없이 재노출하지 않음.",
   "order": -2,
   "title": "압력용기·플랜트 제조기업 회사소개서",
   "category": "기계·제조",

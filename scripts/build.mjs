@@ -18,7 +18,7 @@ const seen=new Set();
 for(const c of all) {
   assert(/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(c.slug),'잘못된 사례 주소');
   assert(!seen.has(c.slug),'중복 사례 주소: '+c.slug);seen.add(c.slug);
-  assert(['draft','ready'].includes(c.status),'상태는 draft 또는 ready: '+c.slug);
+  assert(['draft','ready','excluded'].includes(c.status),'상태는 draft, ready 또는 excluded: '+c.slug);
 }
 const display=await readJSON('content/portfolio-display.json');
 const relatedDisplays=await readJSON('content/related-displays.json');

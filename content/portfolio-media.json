@@ -1,0 +1,681 @@
+{
+  "/assets/img/card-covers/aerospace-profile.png": {
+    "width": 1400,
+    "height": 993,
+    "thumbnail": "/assets/img/portfolio-web/page-000-v1.webp",
+    "thumbWidth": 1100,
+    "thumbHeight": 780
+  },
+  "/assets/img/card-covers/industrial-equipment-profile.png": {
+    "width": 1400,
+    "height": 969,
+    "thumbnail": "/assets/img/portfolio-web/page-001-v1.webp",
+    "thumbWidth": 1100,
+    "thumbHeight": 761
+  },
+  "/assets/img/card-covers/industrial-products-profile.png": {
+    "width": 1400,
+    "height": 969,
+    "thumbnail": "/assets/img/portfolio-web/page-002-v1.webp",
+    "thumbWidth": 1100,
+    "thumbHeight": 761
+  },
+  "/assets/img/card-covers/interior-brand-profile.png": {
+    "width": 1400,
+    "height": 990,
+    "thumbnail": "/assets/img/portfolio-web/page-003-v1.webp",
+    "thumbWidth": 1100,
+    "thumbHeight": 778
+  },
+  "/assets/img/card-covers/lifestyle-brand-profile.png": {
+    "width": 1400,
+    "height": 969,
+    "thumbnail": "/assets/img/portfolio-web/page-004-v1.webp",
+    "thumbWidth": 1100,
+    "thumbHeight": 761
+  },
+  "/assets/img/card-covers/logistics-profile.png": {
+    "width": 1400,
+    "height": 969,
+    "thumbnail": "/assets/img/portfolio-web/page-005-v1.webp",
+    "thumbWidth": 1100,
+    "thumbHeight": 761
+  },
+  "/assets/img/card-covers/machinery-profile.png": {
+    "width": 1400,
+    "height": 990,
+    "thumbnail": "/assets/img/portfolio-web/page-006-v1.webp",
+    "thumbWidth": 1100,
+    "thumbHeight": 778
+  },
+  "/assets/img/card-covers/metal-processing-profile.png": {
+    "width": 1400,
+    "height": 969,
+    "thumbnail": "/assets/img/portfolio-web/page-007-v1.webp",
+    "thumbWidth": 1100,
+    "thumbHeight": 761
+  },
+  "/assets/img/card-covers/precision-parts-profile.png": {
+    "width": 1400,
+    "height": 969,
+    "thumbnail": "/assets/img/portfolio-web/page-008-v1.webp",
+    "thumbWidth": 1100,
+    "thumbHeight": 761
+  },
+  "/assets/img/card-covers/raon-cleaning-profile.png": {
+    "width": 1100,
+    "height": 1589,
+    "thumbnail": "/assets/img/portfolio-web/page-009-v1.webp",
+    "thumbWidth": 761,
+    "thumbHeight": 1100
+  },
+  "/assets/img/card-covers/technology-profile.png": {
+    "width": 1400,
+    "height": 998,
+    "thumbnail": "/assets/img/portfolio-web/page-010-v1.webp",
+    "thumbWidth": 1100,
+    "thumbHeight": 784
+  },
+  "/assets/img/card-covers/tree-farm-profile.png": {
+    "width": 1400,
+    "height": 788,
+    "thumbnail": "/assets/img/portfolio-web/page-011-v1.webp",
+    "thumbWidth": 1100,
+    "thumbHeight": 619
+  },
+  "/assets/img/cases/259-01.jpg": {
+    "width": 1280,
+    "height": 720,
+    "thumbnail": "/assets/img/portfolio-web/page-012-v1.webp",
+    "thumbWidth": 1100,
+    "thumbHeight": 619,
+    "crop": [
+      131,
+      0,
+      1018,
+      720
+    ],
+    "cropNote": "Reviewed external left/right capture bands only; internal artwork preserved."
+  },
+  "/assets/img/cases/259-04.jpg": {
+    "width": 1280,
+    "height": 720,
+    "thumbnail": "/assets/img/portfolio-web/page-013-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 315,
+    "crop": [
+      131,
+      0,
+      1018,
+      720
+    ],
+    "cropNote": "Reviewed external left/right capture bands only; internal artwork preserved."
+  },
+  "/assets/img/cases/259-05.jpg": {
+    "width": 1280,
+    "height": 720,
+    "thumbnail": "/assets/img/portfolio-web/page-014-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 315,
+    "crop": [
+      131,
+      0,
+      1018,
+      720
+    ],
+    "cropNote": "Reviewed external left/right capture bands only; internal artwork preserved."
+  },
+  "/assets/img/cases/259-06.jpg": {
+    "width": 1280,
+    "height": 720,
+    "thumbnail": "/assets/img/portfolio-web/page-015-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 315,
+    "crop": [
+      131,
+      0,
+      1018,
+      720
+    ],
+    "cropNote": "Reviewed external left/right capture bands only; internal artwork preserved."
+  },
+  "/assets/img/cases/291-01.jpg": {
+    "width": 1280,
+    "height": 720,
+    "thumbnail": "/assets/img/portfolio-web/page-016-v1.webp",
+    "thumbWidth": 1100,
+    "thumbHeight": 619,
+    "crop": [
+      131,
+      0,
+      1018,
+      720
+    ],
+    "cropNote": "Reviewed external left/right capture bands only; internal artwork preserved."
+  },
+  "/assets/img/cases/291-02.jpg": {
+    "width": 1280,
+    "height": 720,
+    "thumbnail": "/assets/img/portfolio-web/page-017-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 315,
+    "crop": [
+      131,
+      0,
+      1018,
+      720
+    ],
+    "cropNote": "Reviewed external left/right capture bands only; internal artwork preserved."
+  },
+  "/assets/img/cases/291-03.jpg": {
+    "width": 1280,
+    "height": 720,
+    "thumbnail": "/assets/img/portfolio-web/page-018-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 315,
+    "crop": [
+      131,
+      0,
+      1018,
+      720
+    ],
+    "cropNote": "Reviewed external left/right capture bands only; internal artwork preserved."
+  },
+  "/assets/img/cases/291-04.jpg": {
+    "width": 1280,
+    "height": 720,
+    "thumbnail": "/assets/img/portfolio-web/page-019-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 315,
+    "crop": [
+      131,
+      0,
+      1018,
+      720
+    ],
+    "cropNote": "Reviewed external left/right capture bands only; internal artwork preserved."
+  },
+  "/assets/img/cases/293-01.jpg": {
+    "width": 1280,
+    "height": 720,
+    "thumbnail": "/assets/img/portfolio-web/page-020-v1.webp",
+    "thumbWidth": 1100,
+    "thumbHeight": 619,
+    "crop": [
+      131,
+      0,
+      1018,
+      720
+    ],
+    "cropNote": "Reviewed external left/right capture bands only; internal artwork preserved."
+  },
+  "/assets/img/cases/293-02.jpg": {
+    "width": 1280,
+    "height": 720,
+    "thumbnail": "/assets/img/portfolio-web/page-021-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 315,
+    "crop": [
+      131,
+      0,
+      1018,
+      720
+    ],
+    "cropNote": "Reviewed external left/right capture bands only; internal artwork preserved."
+  },
+  "/assets/img/cases/293-03.jpg": {
+    "width": 1280,
+    "height": 720,
+    "thumbnail": "/assets/img/portfolio-web/page-022-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 315,
+    "crop": [
+      131,
+      0,
+      1018,
+      720
+    ],
+    "cropNote": "Reviewed external left/right capture bands only; internal artwork preserved."
+  },
+  "/assets/img/cases/293-05.jpg": {
+    "width": 1280,
+    "height": 720,
+    "thumbnail": "/assets/img/portfolio-web/page-023-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 315,
+    "crop": [
+      131,
+      0,
+      1018,
+      720
+    ],
+    "cropNote": "Reviewed external left/right capture bands only; internal artwork preserved."
+  },
+  "/assets/img/final/aerospace-profile/page-04.png": {
+    "width": 1400,
+    "height": 993,
+    "thumbnail": "/assets/img/portfolio-web/page-024-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 397
+  },
+  "/assets/img/final/aerospace-profile/page-10.png": {
+    "width": 1400,
+    "height": 993,
+    "thumbnail": "/assets/img/portfolio-web/page-025-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 397
+  },
+  "/assets/img/final/aerospace-profile/page-13.png": {
+    "width": 1400,
+    "height": 993,
+    "thumbnail": "/assets/img/portfolio-web/page-026-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 397
+  },
+  "/assets/img/final/industrial-equipment-profile/page-04.png": {
+    "width": 1400,
+    "height": 969,
+    "thumbnail": "/assets/img/portfolio-web/page-027-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 388
+  },
+  "/assets/img/final/industrial-equipment-profile/page-07.png": {
+    "width": 1400,
+    "height": 969,
+    "thumbnail": "/assets/img/portfolio-web/page-028-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 388
+  },
+  "/assets/img/final/industrial-equipment-profile/page-15.png": {
+    "width": 1400,
+    "height": 969,
+    "thumbnail": "/assets/img/portfolio-web/page-029-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 388
+  },
+  "/assets/img/final/industrial-products-profile/page-06.png": {
+    "width": 1400,
+    "height": 969,
+    "thumbnail": "/assets/img/portfolio-web/page-030-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 388
+  },
+  "/assets/img/final/industrial-products-profile/page-09.png": {
+    "width": 1400,
+    "height": 969,
+    "thumbnail": "/assets/img/portfolio-web/page-031-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 388
+  },
+  "/assets/img/final/industrial-products-profile/page-10.png": {
+    "width": 1400,
+    "height": 969,
+    "thumbnail": "/assets/img/portfolio-web/page-032-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 388
+  },
+  "/assets/img/final/interior-brand-profile/page-04.png": {
+    "width": 1400,
+    "height": 990,
+    "thumbnail": "/assets/img/portfolio-web/page-033-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 396
+  },
+  "/assets/img/final/interior-brand-profile/page-06.png": {
+    "width": 1400,
+    "height": 990,
+    "thumbnail": "/assets/img/portfolio-web/page-034-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 396
+  },
+  "/assets/img/final/interior-brand-profile/page-08.png": {
+    "width": 1400,
+    "height": 990,
+    "thumbnail": "/assets/img/portfolio-web/page-035-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 396
+  },
+  "/assets/img/final/lifestyle-brand-profile/page-06.png": {
+    "width": 1400,
+    "height": 969,
+    "thumbnail": "/assets/img/portfolio-web/page-036-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 388
+  },
+  "/assets/img/final/lifestyle-brand-profile/page-09.png": {
+    "width": 1400,
+    "height": 969,
+    "thumbnail": "/assets/img/portfolio-web/page-037-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 388
+  },
+  "/assets/img/final/lifestyle-brand-profile/page-11.png": {
+    "width": 1400,
+    "height": 969,
+    "thumbnail": "/assets/img/portfolio-web/page-038-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 388
+  },
+  "/assets/img/final/logistics-profile/page-04.png": {
+    "width": 1400,
+    "height": 969,
+    "thumbnail": "/assets/img/portfolio-web/page-039-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 388
+  },
+  "/assets/img/final/logistics-profile/page-07.png": {
+    "width": 1400,
+    "height": 969,
+    "thumbnail": "/assets/img/portfolio-web/page-040-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 388
+  },
+  "/assets/img/final/logistics-profile/page-08.png": {
+    "width": 1400,
+    "height": 969,
+    "thumbnail": "/assets/img/portfolio-web/page-041-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 388
+  },
+  "/assets/img/final/machinery-profile/page-05.png": {
+    "width": 1400,
+    "height": 990,
+    "thumbnail": "/assets/img/portfolio-web/page-042-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 396
+  },
+  "/assets/img/final/machinery-profile/page-10.png": {
+    "width": 1400,
+    "height": 990,
+    "thumbnail": "/assets/img/portfolio-web/page-043-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 396
+  },
+  "/assets/img/final/machinery-profile/page-18.png": {
+    "width": 1400,
+    "height": 990,
+    "thumbnail": "/assets/img/portfolio-web/page-044-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 396
+  },
+  "/assets/img/final/metal-processing-profile/page-05.png": {
+    "width": 1400,
+    "height": 969,
+    "thumbnail": "/assets/img/portfolio-web/page-045-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 388
+  },
+  "/assets/img/final/metal-processing-profile/page-08.png": {
+    "width": 1400,
+    "height": 969,
+    "thumbnail": "/assets/img/portfolio-web/page-046-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 388
+  },
+  "/assets/img/final/metal-processing-profile/page-11.png": {
+    "width": 1400,
+    "height": 969,
+    "thumbnail": "/assets/img/portfolio-web/page-047-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 388
+  },
+  "/assets/img/final/precision-parts-profile/page-05.png": {
+    "width": 1400,
+    "height": 969,
+    "thumbnail": "/assets/img/portfolio-web/page-048-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 388
+  },
+  "/assets/img/final/precision-parts-profile/page-13.png": {
+    "width": 1400,
+    "height": 969,
+    "thumbnail": "/assets/img/portfolio-web/page-049-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 388
+  },
+  "/assets/img/final/precision-parts-profile/page-15.png": {
+    "width": 1400,
+    "height": 969,
+    "thumbnail": "/assets/img/portfolio-web/page-050-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 388
+  },
+  "/assets/img/final/raon-cleaning-profile/page-05.png": {
+    "width": 1100,
+    "height": 1589,
+    "thumbnail": "/assets/img/portfolio-web/page-051-v1.webp",
+    "thumbWidth": 388,
+    "thumbHeight": 560
+  },
+  "/assets/img/final/raon-cleaning-profile/page-07.png": {
+    "width": 1100,
+    "height": 1589,
+    "thumbnail": "/assets/img/portfolio-web/page-052-v1.webp",
+    "thumbWidth": 388,
+    "thumbHeight": 560
+  },
+  "/assets/img/final/raon-cleaning-profile/page-08.png": {
+    "width": 1100,
+    "height": 1589,
+    "thumbnail": "/assets/img/portfolio-web/page-053-v1.webp",
+    "thumbWidth": 388,
+    "thumbHeight": 560
+  },
+  "/assets/img/final/technology-profile/page-04.png": {
+    "width": 1400,
+    "height": 998,
+    "thumbnail": "/assets/img/portfolio-web/page-054-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 399
+  },
+  "/assets/img/final/technology-profile/page-10.png": {
+    "width": 1400,
+    "height": 998,
+    "thumbnail": "/assets/img/portfolio-web/page-055-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 399
+  },
+  "/assets/img/final/technology-profile/page-11.png": {
+    "width": 1400,
+    "height": 998,
+    "thumbnail": "/assets/img/portfolio-web/page-056-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 399
+  },
+  "/assets/img/final/tree-farm-profile/page-05.png": {
+    "width": 1400,
+    "height": 788,
+    "thumbnail": "/assets/img/portfolio-web/page-057-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 315
+  },
+  "/assets/img/final/tree-farm-profile/page-11.png": {
+    "width": 1400,
+    "height": 788,
+    "thumbnail": "/assets/img/portfolio-web/page-058-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 315
+  },
+  "/assets/img/final/tree-farm-profile/page-16.png": {
+    "width": 1400,
+    "height": 788,
+    "thumbnail": "/assets/img/portfolio-web/page-059-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 315
+  },
+  "/assets/img/peer-cards/bridge-infrastructure-profile-cover.png": {
+    "width": 1100,
+    "height": 1543,
+    "thumbnail": "/assets/img/portfolio-web/page-060-v1.webp",
+    "thumbWidth": 784,
+    "thumbHeight": 1100
+  },
+  "/assets/img/peer-cards/bridge-infrastructure-profile-page-1.png": {
+    "width": 1100,
+    "height": 1543,
+    "thumbnail": "/assets/img/portfolio-web/page-061-v1.webp",
+    "thumbWidth": 399,
+    "thumbHeight": 560
+  },
+  "/assets/img/peer-cards/bridge-infrastructure-profile-page-2.png": {
+    "width": 1100,
+    "height": 1543,
+    "thumbnail": "/assets/img/portfolio-web/page-062-v1.webp",
+    "thumbWidth": 399,
+    "thumbHeight": 560
+  },
+  "/assets/img/peer-cards/bridge-infrastructure-profile-page-3.png": {
+    "width": 1100,
+    "height": 1543,
+    "thumbnail": "/assets/img/portfolio-web/page-063-v1.webp",
+    "thumbWidth": 399,
+    "thumbHeight": 560
+  },
+  "/assets/img/peer-cards/building-materials-profile-cover.png": {
+    "width": 1100,
+    "height": 1556,
+    "thumbnail": "/assets/img/portfolio-web/page-064-v1.webp",
+    "thumbWidth": 778,
+    "thumbHeight": 1100
+  },
+  "/assets/img/peer-cards/building-materials-profile-page-1.png": {
+    "width": 1100,
+    "height": 1556,
+    "thumbnail": "/assets/img/portfolio-web/page-065-v1.webp",
+    "thumbWidth": 396,
+    "thumbHeight": 560
+  },
+  "/assets/img/peer-cards/building-materials-profile-page-2.png": {
+    "width": 1100,
+    "height": 1556,
+    "thumbnail": "/assets/img/portfolio-web/page-066-v1.webp",
+    "thumbWidth": 396,
+    "thumbHeight": 560
+  },
+  "/assets/img/peer-cards/building-materials-profile-page-3.png": {
+    "width": 1100,
+    "height": 1556,
+    "thumbnail": "/assets/img/portfolio-web/page-067-v1.webp",
+    "thumbWidth": 396,
+    "thumbHeight": 560
+  },
+  "/assets/img/peer-cards/construction-brand-profile-cover.png": {
+    "width": 1400,
+    "height": 996,
+    "thumbnail": "/assets/img/portfolio-web/page-068-v1.webp",
+    "thumbWidth": 1100,
+    "thumbHeight": 783
+  },
+  "/assets/img/peer-cards/construction-brand-profile-page-1.png": {
+    "width": 1400,
+    "height": 996,
+    "thumbnail": "/assets/img/portfolio-web/page-069-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 398
+  },
+  "/assets/img/peer-cards/construction-brand-profile-page-2.png": {
+    "width": 1400,
+    "height": 996,
+    "thumbnail": "/assets/img/portfolio-web/page-070-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 398
+  },
+  "/assets/img/peer-cards/construction-brand-profile-page-3.png": {
+    "width": 1400,
+    "height": 996,
+    "thumbnail": "/assets/img/portfolio-web/page-071-v1.webp",
+    "thumbWidth": 560,
+    "thumbHeight": 398
+  },
+  "/assets/img/peer-cards/demolition-profile-cover.png": {
+    "width": 1100,
+    "height": 1556,
+    "thumbnail": "/assets/img/portfolio-web/page-072-v1.webp",
+    "thumbWidth": 778,
+    "thumbHeight": 1100
+  },
+  "/assets/img/peer-cards/demolition-profile-page-1.png": {
+    "width": 1100,
+    "height": 1556,
+    "thumbnail": "/assets/img/portfolio-web/page-073-v1.webp",
+    "thumbWidth": 396,
+    "thumbHeight": 560
+  },
+  "/assets/img/peer-cards/demolition-profile-page-2.png": {
+    "width": 1100,
+    "height": 1556,
+    "thumbnail": "/assets/img/portfolio-web/page-074-v1.webp",
+    "thumbWidth": 396,
+    "thumbHeight": 560
+  },
+  "/assets/img/peer-cards/demolition-profile-page-3.png": {
+    "width": 1100,
+    "height": 1556,
+    "thumbnail": "/assets/img/portfolio-web/page-075-v1.webp",
+    "thumbWidth": 396,
+    "thumbHeight": 560
+  },
+  "/assets/img/peer-cards/interior-design-profile-cover.png": {
+    "width": 1100,
+    "height": 1556,
+    "thumbnail": "/assets/img/portfolio-web/page-076-v1.webp",
+    "thumbWidth": 778,
+    "thumbHeight": 1100
+  },
+  "/assets/img/peer-cards/interior-design-profile-page-1.png": {
+    "width": 1100,
+    "height": 1556,
+    "thumbnail": "/assets/img/portfolio-web/page-077-v1.webp",
+    "thumbWidth": 396,
+    "thumbHeight": 560
+  },
+  "/assets/img/peer-cards/interior-design-profile-page-2.png": {
+    "width": 1100,
+    "height": 1556,
+    "thumbnail": "/assets/img/portfolio-web/page-078-v1.webp",
+    "thumbWidth": 396,
+    "thumbHeight": 560
+  },
+  "/assets/img/peer-cards/interior-design-profile-page-3.png": {
+    "width": 1100,
+    "height": 1556,
+    "thumbnail": "/assets/img/portfolio-web/page-079-v1.webp",
+    "thumbWidth": 396,
+    "thumbHeight": 560
+  },
+  "/assets/img/peer-cards/interior-materials-profile-cover.png": {
+    "width": 1100,
+    "height": 1556,
+    "thumbnail": "/assets/img/portfolio-web/page-080-v1.webp",
+    "thumbWidth": 778,
+    "thumbHeight": 1100
+  },
+  "/assets/img/peer-cards/interior-materials-profile-page-1.png": {
+    "width": 1100,
+    "height": 1556,
+    "thumbnail": "/assets/img/portfolio-web/page-081-v1.webp",
+    "thumbWidth": 396,
+    "thumbHeight": 560
+  },
+  "/assets/img/peer-cards/interior-materials-profile-page-2.png": {
+    "width": 1100,
+    "height": 1556,
+    "thumbnail": "/assets/img/portfolio-web/page-082-v1.webp",
+    "thumbWidth": 396,
+    "thumbHeight": 560
+  },
+  "/assets/img/peer-cards/interior-materials-profile-page-3.png": {
+    "width": 1100,
+    "height": 1556,
+    "thumbnail": "/assets/img/portfolio-web/page-083-v1.webp",
+    "thumbWidth": 396,
+    "thumbHeight": 560
+  },
+  "/assets/img/portfolio/제조업-기업-회사소개서-제작-10.jpg": {
+    "width": 640,
+    "height": 443,
+    "thumbnail": "/assets/img/portfolio-web/page-084-v1.webp",
+    "thumbWidth": 640,
+    "thumbHeight": 443
+  }
+}

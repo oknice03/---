@@ -43,5 +43,6 @@ assert(!html.includes('처음 받은 설명은 한 줄'),'미확인 사례 수�
 assert(css.includes('width:auto')&&css.includes('minmax(0,1fr) auto minmax(0,1fr)'),'모바일 진행 절차 대응');
 const portfolio=await readFile('dist/portfolio/index.html','utf8');
 assert(portfolio.includes('brand-purple.png')&&portfolio.includes('/css/brand.css'),'목록 공통 브랜드 반영');
-assert.equal((portfolio.match(/data-case data-category/g)||[]).length,17,'기존 사례 17개 유지');
-console.log(JSON.stringify({result:'PASS',heroCharacterImages:1,homeCases:6,portfolioCases:17,faqItems:10,promotion:'15~30초 홍보 영상 1편 / 제작 고객 한시적 제공',legacyAnchorsPreserved:true,previewCodeAbsent:true},null,2));
+assert.equal((portfolio.match(/data-case data-category/g)||[]).length,16,'세광 제외 후 승인된 사례 16개');
+assert(!portfolio.includes('pressure-vessel-profile')&&!html.includes('pressure-vessel-profile'),'메인·목록에서 세광 제외');
+console.log(JSON.stringify({result:'PASS',heroCharacterImages:1,homeCases:6,portfolioCases:16,faqItems:10,promotion:'15~30초 홍보 영상 1편 / 제작 고객 한시적 제공',legacyAnchorsPreserved:true,previewCodeAbsent:true},null,2));
