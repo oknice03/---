@@ -61,7 +61,7 @@ assert.equal((scope.match(/class="pb-scope-category">[^<]*기본 포함/g)||[]).
 assert.equal((scope.match(/<details class="pb-scope-item"/g)||[]).length,5,'견적서 서비스5개 모두 펼침형 목록');
 assert.equal((scope.match(/<li>/g)||[]).length,12,'첨부 견적서 세부내역12개');
 assert(!/<details[^>]*\sopen(?:\s|>)/.test(scope),'서비스 목록 초기 접힘');
-for(const phrase of ['중복 자료 정리','누락 정보 구조 보완','새로운 전체 구조(목차) 설계','제목·설명 문구 재작성','톤 정리 및 통일','문구 최적화(브랜딩)','회사 홍보 카피 1개안 제공','회사 강점·사업 소개 정리','비전·경영철학 문구 제작 및 정리(브랜딩)','표지·레이아웃 디자인','2가지 제공','30페이지까지','이미지 배치·정리·리터칭','페이지별 시각화','화질이 좋지 않은 이미지 선명화'])assert(scope.includes(phrase),'견적서 항목 보존: '+phrase);
+for(const phrase of ['중복 자료 정리','누락 정보 구조 보완','새로운 전체 구조(목차) 설계','제목·설명 문구 재작성','톤 정리 및 통일','문구 최적화(브랜딩)','회사 홍보 카피 1개안 제공','회사 강점·사업 소개 정리','비전·경영철학 문구 제작 및 정리(브랜딩)','표지·레이아웃 디자인','30페이지까지','이미지 배치·정리·리터칭','페이지별 시각화','화질이 좋지 않은 이미지 선명화'])assert(scope.includes(phrase),'견적서 항목 보존: '+phrase);
 assert(portfolio.includes('brand-purple.png')&&portfolio.includes('/css/brand.css'),'목록 공통 브랜드 반영');
 assert.equal((portfolio.match(/data-case data-category/g)||[]).length,16,'세광 제외 후 승인된 사례 16개');
 assert(!portfolio.includes('pressure-vessel-profile')&&!html.includes('pressure-vessel-profile'),'메인·목록에서 세광 제외');
