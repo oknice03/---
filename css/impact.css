@@ -26,7 +26,7 @@
 .service-home #hero{text-align:left;padding-top:92px;padding-bottom:84px;color:#fff}
 .service-home #hero .pb-eyebrow{display:inline-block;margin-bottom:34px;padding:6px 12px;border:1px solid var(--lime);color:var(--lime);font-size:13px;font-weight:700;letter-spacing:.06em}
 .service-home #hero h1{font-size:inherit;line-height:1;letter-spacing:-.06em;color:#fff}
-.service-home #hero .pb-hero-topic{display:block;margin:0 0 18px;font-size:clamp(28px,4.2vw,58px);font-weight:800;color:#c9c9cf;letter-spacing:-.05em;line-height:1.2}
+.service-home #hero .pb-hero-topic{display:block;margin:0 0 18px;font-size:clamp(28px,4.2vw,58px);font-weight:800;color:var(--lime);letter-spacing:-.05em;line-height:1.2}
 .service-home #hero #pb-headline{display:block;font-size:clamp(46px,8.4vw,118px);font-weight:900;line-height:1.08;letter-spacing:-.065em;color:#fff}
 .service-home #hero h1 em{color:var(--lime);background:none;box-shadow:none;font-style:normal;display:inline-block}
 .service-home #hero .pb-renew-support{margin-top:44px;font-size:clamp(20px,2.4vw,30px);font-weight:600;color:#e8e8ec;line-height:1.75}
