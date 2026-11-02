@@ -4,9 +4,8 @@ import assert from 'node:assert/strict';
 const html=await readFile('dist/index.html','utf8');
 assert(html.includes('<body class="service-home">'),'메인 개편 적용 확인');
 const hero=html.match(/<section[^>]+id="hero"[\s\S]*?<\/section>/)?.[0];
-assert(hero&&hero.includes('curious-client-v1.webp'),'요청한 고민 캐릭터 표시');
-assert.equal((hero.match(/<img/g)||[]).length,1,'첫 화면은 고민 캐릭터 1개만 표시');
-assert.equal((hero.match(/<div class="pb-concern-questions"><p>[\s\S]*?<\/div>/)?.[0].match(/<p>/g)||[]).length,3,'고민 문구 3개 유지');
+assert(hero&&!hero.includes('pb-concern'),'요청한 고민 캐릭터 영역 삭제');
+assert.equal((hero.match(/<img/g)||[]).length,0,'첫 화면 이미지 없음');
 const ids=[...html.matchAll(/\bid="([^"]+)"/g)].map(m=>m[1]);
 assert.equal(new Set(ids).size,ids.length,'중복 ID 금지');
 for(const id of ['services','why','video','video-package','portfolio','about','process','reviews','faq','contact','planning-case','included'])assert(ids.includes(id),'기존 앵커 및 새 혜택 유지: '+id);
@@ -29,7 +28,7 @@ assert(hero.includes('회사소개서는 디자인이 아닙니다.')&&hero.incl
 assert(html.includes('<p class="pb-statement-tag">강점부터 찾고, 디자인은 마지막에.</p>')&&html.includes('대표님이 먼저 우리 회사를 확신하게 됩니다.')&&hero.includes('원고 준비 없이 상담 시작하기'),'답변 문구 강조·상담 버튼');
 assert(!hero.includes('제가 묻겠습니다.')&&!hero.includes('이메일로')&&!hero.includes('편하게 답해주세요.'),'요청한 첫 화면 문구 삭제');
 assert(html.includes('모두 기본 포함')&&html.includes('기획 · 문구 · 디자인 · PPT 원본'),'기본 포함 범위');
-assert.equal((html.match(/class="pb-value-tier /g)||[]).length,4,'고객 가치 4단 적층 시각화');
+assert.equal((html.match(/class="pb-eq-term"/g)||[]).length,4,'고객 가치 4항 등식 시각화');
 assert(!/\d+만원/.test(html.match(/<section[^>]*id="included"[\s\S]*?<\/section>/)?.[0]||''),'참고 이미지 금액을 실제 견적으로 표시하지 않음');
 assert(html.includes('href="tel:010-7510-0215"')&&html.includes('href="mailto:oknice03@gmail.com"'),'실제 상담 채널 유지');
 assert(!/globalThis\.Tweak|pb-editorial-preview|data:image\//.test(html),'시각화 전용 코드 배포 방지');
@@ -37,9 +36,8 @@ for(const file of ['css/home.css','css/brand.css','assets/img/brand-purple.png']
 const css=await readFile('dist/css/home.css','utf8');
 assert(css.includes('.service-home #services{background:#f9f8f5'),'기획 차별점 밝은 배경');
 assert.equal((html.match(/class="pb-plan-card"/g)||[]).length,3,'기획 차별점 카드 3개');
-assert(html.includes('js/planning-motion.js')&&html.includes('pb-motion-toggle'),'웹 모션 및 제어 버튼');
+assert(!html.includes('pb-motion-toggle')&&!html.includes('pb-plan-art'),'모션 버튼·삽화 삭제, 간결한 목록형');
 assert(css.includes('@media(prefers-reduced-motion:reduce)'),'동작 줄이기 지원');
-await access('dist/js/planning-motion.js');
 await access('dist/js/event-popup.js');
 await access('dist/css/renewal.css');
 const impactCss=await readFile('dist/css/renewal.css','utf8');
@@ -50,9 +48,8 @@ assert(!html.includes('pb-offer-banner')&&!html.includes('<section class="pb-eve
 const sections=[...html.matchAll(/<section[^>]*\bid="([^"]+)"/g)].map(m=>m[1]);
 assert.equal(sections[1],'approach','진행 방식 강조 섹션을 두 번째에 배치');
 assert.equal(sections[2],'planning-case','실제 기획사례를 세 번째 섹션에 배치');
-assert.equal((html.match(/<figure>/g)||[]).length,3,'실제 사례 내지3장');
+assert.equal((html.match(/<figure>/g)||[]).length,0,'요청한 사례 내지 3장 삭제');
 assert(!html.includes('처음 받은 설명은 한 줄'),'미확인 사례 수치 단정 금지');
-assert(css.includes('width:auto')&&css.includes('minmax(0,1fr) auto minmax(0,1fr)'),'모바일 진행 절차 대응');
 const portfolio=await readFile('dist/portfolio/index.html','utf8');
 assert(portfolio.includes('우리 회사의 강점을,')&&portfolio.includes('<strong>고객이 선택할 이유로.</strong>')&&!portfolio.includes('한 장의 인상부터'),'고객 선택 이유 중심 포트폴리오 카피');
 assert(!portfolio.includes('PORTFOLIO / 회사소개서 제작')&&!portfolio.includes('<p class="mp-kicker"></p>'),'포트폴리오 상단 영문 라벨 및 빈 단락 제거');
@@ -68,4 +65,4 @@ for(const phrase of ['중복 자료 정리','누락 정보 구조 보완','새�
 assert(portfolio.includes('brand-purple.png')&&portfolio.includes('/css/brand.css'),'목록 공통 브랜드 반영');
 assert.equal((portfolio.match(/data-case data-category/g)||[]).length,16,'세광 제외 후 승인된 사례 16개');
 assert(!portfolio.includes('pressure-vessel-profile')&&!html.includes('pressure-vessel-profile'),'메인·목록에서 세광 제외');
-console.log(JSON.stringify({result:'PASS',heroCharacterImages:1,homeCases:6,portfolioCases:16,faqItems:10,promotion:'15~30초 홍보 영상 1편 / 제작 고객 한시적 제공',legacyAnchorsPreserved:true,previewCodeAbsent:true},null,2));
+console.log(JSON.stringify({result:'PASS',heroCharacterImages:0,homeCases:6,portfolioCases:16,faqItems:10,promotion:'15~30초 홍보 영상 1편 / 제작 고객 한시적 제공',legacyAnchorsPreserved:true,previewCodeAbsent:true},null,2));
