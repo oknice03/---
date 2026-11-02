@@ -1,6 +1,60 @@
 /* Multipage portfolio; existing landing-page design is preserved. */
+.mp-portfolio-intro h1>span,.mp-portfolio-intro h1>strong{display:block}
+.mp-portfolio-intro h1>strong{color:#0d0d0f;font-weight:800;margin-top:8px}
+.mp-portfolio-intro h1{word-break:keep-all;overflow-wrap:break-word}
+/* Materials guide: four readable cards instead of a long sidebar article. */
+.mg-intro .mp-lead strong{display:block;color:#0d0d0f;font-weight:700;font-size:clamp(21px,2.3vw,28px)}
+.mg-intro .mp-lead>span{display:block;margin-top:6px}
+.mg-guide{word-break:keep-all;overflow-wrap:break-word}
+.mg-start{display:grid;grid-template-columns:1fr 1.3fr;gap:28px;align-items:center;background:#f6f4f0;border:1px solid #e4e3e0;border-radius:12px;padding:28px 32px;margin-bottom:24px}
+.mg-tag{font-size:12px;font-weight:700;color:#0d0d0f}
+.mg-start p{font-size:28px;font-weight:700;line-height:1.4;margin:10px 0 0;letter-spacing:-.035em}
+.mg-start p strong{color:#0d0d0f}
+.mg-file-list{list-style:none;display:grid;gap:10px;margin:0;padding:0}
+.mg-file-list li{display:flex;align-items:center;gap:12px;background:#fff;border:1px solid #e6e5e1;padding:13px 16px;border-radius:6px;font-weight:600;font-size:15px}
+.mg-file-list li span{font-size:12px;font-weight:700;color:#0d0d0f}
+.mg-card-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.mg-card{padding:28px;border:1px solid #e2e1de;border-radius:12px;background:#fff;min-width:0}
+.mg-card-top{display:flex;align-items:center;gap:14px;margin-bottom:18px}
+.mg-number{display:grid;place-items:center;width:42px;height:42px;flex:none;border-radius:10px;background:#f2f0eb;font-size:20px;font-weight:700;color:#0d0d0f}
+.mg-card h2{font-size:clamp(25px,2.8vw,32px);line-height:1.4;font-weight:700;letter-spacing:-.04em;margin:0 0 20px;color:#0d0d0f}
+.mg-card h2>span{display:block;font-size:12px;font-weight:500;letter-spacing:0;color:#7b7770;margin-bottom:8px}
+.mg-card p{font-size:15px;line-height:1.8;margin:0 0 20px;color:#69665f}
+.mg-card p strong{display:block;color:#0d0d0f;font-weight:700}
+.mg-card p>span{display:block;margin-top:8px}
+.mg-card ul{list-style:none;margin:0;padding:17px 0 0;border-top:1px solid #edecea;display:grid;gap:12px}
+.mg-card ul li{position:relative;padding-left:21px;font-size:14px;line-height:1.7;color:#1b1b1f}
+.mg-card ul li::before{content:"✓";position:absolute;left:0;color:#0d0d0f;font-weight:700}
+.mg-card-help{background:#faf9f6;border-color:#d2d0ca}
+.mg-mini-flow{list-style:none;display:grid;gap:9px;margin:0;padding:0}
+.mg-mini-flow li{display:flex;align-items:center;gap:10px;font-size:14px;line-height:1.6}
+.mg-mini-flow b{display:grid;place-items:center;width:25px;height:25px;flex:none;border-radius:50%;background:#0d0d0f;color:#fff;font-size:12px}
+.mg-bottom{display:flex;justify-content:space-between;align-items:center;gap:24px;margin-top:24px;padding:26px 28px;background:#0d0d0f;border-radius:10px;color:white}
+.mg-bottom p{margin:0;font-size:20px;line-height:1.6}
+.mg-bottom strong{font-weight:700}
+.mg-bottom p span{display:block;font-size:14px;color:#e6e5e1;margin-top:7px}
+.mg-bottom .btn{flex:none;font-size:14px;white-space:normal}
+.mg-related{display:flex;flex-wrap:wrap;gap:12px 24px;margin-top:25px;font-size:14px;font-weight:600}
+.mg-related a{color:#0d0d0f;text-decoration:underline;text-underline-offset:4px}
+@media(max-width:720px){.mg-start{grid-template-columns:1fr;gap:20px;padding:24px}.mg-card-grid{grid-template-columns:1fr;gap:16px}.mg-card{padding:23px}.mg-start p{font-size:26px}.mg-bottom{align-items:stretch;flex-direction:column;padding:24px;gap:18px}.mg-bottom p{font-size:19px}.mg-bottom .btn{text-align:center}}
 /* Native FAQ disclosure remains keyboard-accessible without JavaScript. */
 .faq-item summary h3{font:inherit;line-height:inherit;margin:0;flex:1;min-width:0;word-break:keep-all;overflow-wrap:anywhere}
+.mp-about-reading .mp-reading-copy>span{display:block}
+.mp-about-reading .mp-reading-copy>span+span{margin-top:12px}
+.mp-about-reading .mp-prose{word-break:keep-all;overflow-wrap:break-word}
+.mp-about-reading .mp-prose p{line-height:1.85}
+.mp-about-reading .mp-prose strong{font-weight:700;color:#0d0d0f}
+.mp-about-reading .mp-prose li{line-height:1.8;margin-block:6px}
+.mp-maker-section{padding-bottom:24px}
+.mp-maker-heading{text-align:center;margin-bottom:24px}
+.mp-maker-topic{display:block;font-size:13px;font-weight:500;margin:12px 0 18px;letter-spacing:0}
+.mp-maker-heading h2{font-size:clamp(28px,3.5vw,40px);line-height:1.4;font-weight:700;color:#0d0d0f;letter-spacing:-.035em}
+.mp-maker-placeholder{position:relative;display:grid;place-items:center;aspect-ratio:16/9;width:100%;max-width:800px;margin:auto;padding:60px 24px;border:1px solid #e1e0dc;border-radius:10px;background:linear-gradient(135deg,#f8f7f3,#ebeae8);text-align:center;color:#1b1b1f}
+.mp-maker-placeholder p{font-size:14px;margin:0 0 12px;color:#7f7b72}
+.mp-maker-placeholder strong{font-size:clamp(22px,3vw,32px);font-weight:700;letter-spacing:-.035em}
+.mp-maker-label{position:absolute;top:22px;left:26px;font-size:12px;font-weight:700;letter-spacing:.12em;color:#0d0d0f}
+.mp-maker-format{position:absolute;bottom:20px;right:26px;font-size:11px;color:#7f7b72}
+@media(max-width:600px){.mp-maker-placeholder{min-height:210px;padding:55px 16px}.mp-maker-label{top:16px;left:18px;font-size:10px}.mp-maker-format{bottom:16px;right:18px}}
 .faq-item .faq-related{font-size:14px;padding-top:0}
 #faq{scroll-margin-top:90px}
 .mp-related-reading{margin-bottom:26px}
@@ -64,7 +118,7 @@
 .mp-art-portrait-reverse .mp-art-inside-1{left:30%;top:17%}
 .mp-art-solo .mp-art-cover{width:86%;left:7%}
 .mp-art-theme-atelier .mp-art-sheet{box-shadow:0 8px 18px -6px #392d2666,0 20px 30px -18px #392d2655}
-.mp-card>a:focus-visible{outline:3px solid #7548c4;outline-offset:6px;border-radius:10px}
+.mp-card>a:focus-visible{outline:3px solid #0d0d0f;outline-offset:6px;border-radius:10px}
 .mp-card-body{padding-top:13px}
 .service-home #portfolio .mp-card h3{font-size:clamp(19px,1.65vw,23px);font-weight:800;line-height:1.45;word-break:keep-all}
 .mp-card h3{font-size:clamp(19px,1.65vw,23px);font-weight:800;word-break:keep-all;overflow-wrap:anywhere}

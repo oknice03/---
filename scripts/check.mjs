@@ -6,6 +6,10 @@ const root=path.resolve('dist'), site=JSON.parse(await readFile('content/site.js
 const walk=async dir=>(await Promise.all((await readdir(dir,{withFileTypes:true})).map(x=>x.isDirectory()?walk(path.join(dir,x.name)):path.join(dir,x.name)))).flat();
 const files=await walk(root), pages=files.filter(x=>x.endsWith('.html')&&!/google[a-f0-9]+\.html$/.test(x));
 const sitemap=await readFile(path.join(root,'sitemap.xml'),'utf8');
+const excludedCase='pressure-vessel-profile';
+assert(!files.some(file=>file.includes(excludedCase)),'제외된 세광 상세 페이지·이미지 출력 금지');
+assert(!sitemap.includes(excludedCase),'제외된 세광 사이트맵 등록 금지');
+assert(!(await readFile(path.join(root,'llms.txt'),'utf8')).includes(excludedCase),'제외된 세광 검색 안내 등록 금지');
 const unescape=s=>s.replace(/&amp;/g,'&').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&lt;/g,'<').replace(/&gt;/g,'>');
 const urls=[...sitemap.matchAll(/<loc>(.*?)<\/loc>/g)].map(m=>unescape(m[1]));
 assert.equal(new Set(urls).size,urls.length,'sitemap 중복');
@@ -13,6 +17,7 @@ const titles=new Set(), canonicals=new Set(), descriptions=new Set();
 let linkCount=0,schemaCount=0;
 for(const file of pages) {
   const html=await readFile(file,'utf8');
+  assert(!html.includes(excludedCase),'제외된 세광 관련 사례 링크·이미지 노출 금지: '+file);
   if(file.includes(path.sep+'portfolio'+path.sep)&&!file.endsWith(path.sep+'portfolio'+path.sep+'index.html')) {
     for(const h of html.matchAll(/<h2[^>]*>(.*?)<\/h2>/gs))assert(h[1].includes(site.service),'사례 H2에 구체적인 서비스 주제 필요: '+file);
     const ownMedia=[...html.matchAll(/<figure class="mp-cover mp-page-figure">[\s\S]*?<img src="([^"]+)"/g)].map(x=>x[1]);
@@ -36,6 +41,14 @@ for(const file of pages) {
     assert.equal(visible.length,faq.items.length,'FAQ 화면 질문 수');
     assert.equal(questions.length,faq.items.length,'FAQ 스키마 질문 수');
     faq.items.forEach((q,i)=>{assert.equal(unescape(visible[i][1]),q.question);assert.equal(unescape(visible[i][2]),q.answer);assert.equal(questions[i].name,q.question);assert.equal(questions[i].acceptedAnswer.text,q.answer);});
+  }
+  if(rel==='guides/materials/index.html'){
+    assert.equal((html.match(/<article class="mg-card(?: [^"]*)?">/g)||[]).length,4,'준비 가이드 카드4개');
+    assert(!html.includes('mp-sidebar'),'준비 가이드 긴 사이드바 제거');
+    const materialGuide=JSON.parse(await readFile('content/guides.json','utf8')).find(g=>g.slug==='materials');
+    for(const section of materialGuide.sections)for(const item of section.items??[])assert(html.includes(item),'준비 자료 항목 유지: '+item);
+    for(const text of ['공개 범위','최신 여부','사용 권한','확인되지 않은 숫자나 고객명은 임의로 추가하지 않음'])assert(html.includes(text),'공개 주의사항 유지: '+text);
+    assert(html.includes('href="/#contact"'),'준비 가이드 상담 연결');
   }
   if(/^guides\/(materials|outline|estimate)\/index.html$/.test(rel)){
     assert(html.includes(site.service+' 실제 사례와 구성 예시'),'가이드 관련 사례 누락');

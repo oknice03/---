@@ -12,7 +12,7 @@ export function buildLlmsText(site,cases,guides){
  link(site.service+' 서비스',site.domain+'/#services'),
  link(site.service+' 자주 묻는 질문',site.domain+'/#faq'),
  link(site.service+' 상담',site.domain+'/#contact'),
- link('피피티브랜딩 브랜드 소개','https://pptbranding.com/about/'),'',
+ link('피피티브랜딩소개','https://pptbranding.com/about/'),'',
  '## '+site.service+' 포트폴리오','',
  link('전체 '+site.service+' 사례',site.domain+'/portfolio/'),
  ...cases.filter(c=>c.status==='ready').map(c=>link(c.title+' 제작 사례',site.domain+'/portfolio/'+c.slug+'/',c.summary)),'',

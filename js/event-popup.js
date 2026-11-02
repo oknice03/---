@@ -44,12 +44,6 @@
     const rect = dialog.getBoundingClientRect();
     if (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom) closeEvent();
   });
-  dialog.querySelector('[data-event-contact]').addEventListener('click', () => {
-    previousFocus = null;
-    closeEvent();
-    const contact = document.getElementById('contact');
-    if (contact) { contact.setAttribute('tabindex', '-1'); requestAnimationFrame(() => contact.focus({preventScroll:true})); }
-  });
   if (!read('sessionStorage', sessionKey) && read('localStorage', todayKey) !== day()) {
     window.addEventListener('scroll', autoOpen, {passive:true});
     document.addEventListener('visibilitychange', autoOpen);
