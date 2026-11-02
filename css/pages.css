@@ -202,3 +202,32 @@
 .pb-representative-link span{color:#686373;font-size:13px}
 main>.pb-representative-video{padding-inline:24px}
 @media(max-width:600px){.pb-representative-video{padding-block:24px}.pb-representative-video h2{margin-bottom:16px}.pb-representative-player{border-radius:8px}main>.pb-representative-video{padding-inline:20px}}
+
+/* 포트폴리오 목록: 메인과 같은 먹색·라임 톤 */
+.mp-portfolio-intro{background:#0d0d0f;border-bottom:0;padding:72px 0 64px}
+.mp-portfolio-intro h1{color:#fff;font-size:clamp(34px,5.4vw,68px);font-weight:900;letter-spacing:-.055em;line-height:1.18}
+.mp-portfolio-intro h1 strong{color:#d9ff6a}
+.mp-portfolio-list{background:#f4f2ec;padding-top:56px}
+.mp-portfolio-list .mp-title{font-weight:900;letter-spacing:-.05em}
+.mp-portfolio-list .mp-filters{align-items:center;gap:14px 20px;padding:20px 0 34px}
+.mp-chips{display:flex;flex-wrap:wrap;gap:8px}
+.mp-chip{font:inherit;font-size:14px;font-weight:800;color:#0d0d0f;background:#fff;border:2px solid #0d0d0f;padding:8px 14px;cursor:pointer;transition:transform .12s,box-shadow .12s}
+.mp-chip span{font-weight:700;color:#7a7a80;margin-left:2px}
+.mp-chip:hover{transform:translate(-2px,-2px);box-shadow:3px 3px 0 #0d0d0f}
+.mp-chip[aria-pressed="true"]{background:#0d0d0f;color:#d9ff6a}
+.mp-chip[aria-pressed="true"] span{color:#d9ff6a}
+.mp-chip:focus-visible{outline:3px solid #9ec92f;outline-offset:2px}
+.mp-portfolio-list .mp-filters output{padding:0;font-weight:700;color:#5c5c63}
+.mp-portfolio-list .mp-card>a{background:#fff;border:2px solid #0d0d0f;box-shadow:8px 8px 0 #0d0d0f;transition:transform .15s,box-shadow .15s}
+.mp-portfolio-list .mp-card>a:hover{transform:translate(-3px,-3px);box-shadow:11px 11px 0 #0d0d0f}
+.mp-portfolio-list .mp-card .mp-art-stage,.mp-portfolio-list .mp-card-visual{border-radius:0;border-bottom:2px solid #0d0d0f}
+.mp-portfolio-list .mp-card-body{padding:16px 18px 18px}
+.mp-portfolio-list .mp-card-body>.mp-category{display:inline-block;background:#d9ff6a;color:#0d0d0f;font-size:12px;font-weight:800;padding:2px 8px}
+.mp-portfolio-list .mp-card h3{font-weight:900;color:#0d0d0f;margin-top:8px}
+.mp-portfolio-list .mp-card>a:focus-visible{border-radius:0}
+@media(max-width:600px){
+ .mp-portfolio-intro{padding:44px 0 40px}
+ .mp-chips{flex-wrap:nowrap;overflow-x:auto;margin:0 -16px;padding:2px 16px 8px;scrollbar-width:none}
+ .mp-chip{flex:none}
+ .mp-portfolio-list .mp-card>a{box-shadow:5px 5px 0 #0d0d0f}
+}
