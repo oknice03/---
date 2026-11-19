@@ -9,7 +9,7 @@ const related=JSON.parse(await readFile('content/related-displays.json','utf8'))
 const site=JSON.parse(await readFile('content/site.json','utf8'));
 const list=await readFile('dist/portfolio/index.html','utf8');
 const home=await readFile('dist/index.html','utf8');
-const expected=site.id==='bid'?18:16;
+const expected=18;
 assert.equal((list.match(/data-case data-category=/g)||[]).length,expected);
 assert.equal((home.match(/data-case data-category=/g)||[]).length,6);
 assert(!list.includes('pressure-vessel-profile'),'제외된 세광은 노출하지 않음');
@@ -32,9 +32,9 @@ for(const [src,m] of Object.entries(media)){
  bytes+=(await stat('.'+m.thumbnail)).size;
 }
 assert(variants.size>=4);
-assert.equal(Object.keys(backgrounds).length,34,'두 사이트 전체 프로젝트34개');
-assert.equal(new Set(Object.values(backgrounds)).size,34,'프로젝트별 배경 경로 중복 금지');
+assert.equal(Object.keys(backgrounds).length,36,'기존 프로젝트34개와 신규 승인2개');
+assert.equal(new Set(Object.values(backgrounds)).size,36,'프로젝트별 배경 경로 중복 금지');
 const hashes=await Promise.all(Object.values(backgrounds).map(async src=>createHash('sha256').update(await readFile('.'+src)).digest('hex')));
-assert.equal(new Set(hashes).size,34,'이름만 다른 동일 배경 사용 금지');
-console.log('Unique project backgrounds: 34 paths / 34 image hashes');
+assert.equal(new Set(hashes).size,36,'이름만 다른 동일 배경 사용 금지');
+console.log('Unique project backgrounds: 36 paths / 36 image hashes');
 console.log(JSON.stringify({result:'PASS',cases:expected,layouts:variants.size,webDerivatives:Object.keys(media).length,totalDerivativeMB:+(bytes/1024/1024).toFixed(2),originalsPreserved:true},null,2));

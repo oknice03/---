@@ -33,7 +33,7 @@ for(const c of cases) {
   assert(c.images?.length&&c.sections?.length>=2&&c.highlights?.length,c.slug+': 이미지·본문·특징 필요');
   for(const s of c.sections) assert(s.heading?.trim()&&s.text?.trim(),c.slug+': 빈 본문');
   validateStory(c);
-  assert(c.cardImage?.kind==='mockup'&&c.cardImage.includesCover===true,c.slug+': 카드에는 표지를 포함한 목업을 지정하세요.');
+  assert(['mockup','cover'].includes(c.cardImage?.kind)&&c.cardImage.includesCover===true,c.slug+': 카드에는 실제 표지 또는 표지를 포함한 목업을 지정하세요.');
   for(const img of [...c.images,...(c.cardImage?[c.cardImage]:[])]) {
     assert(/^\/assets\/img\/[^?#]+$/u.test(img.src)&&!img.src.includes('..')&&!img.src.includes('\\'),c.slug+': 이미지 경로 확인');
     assert(/\.(jpg|jpeg|png|webp)$/i.test(img.src)&&img.alt?.trim()&&img.caption?.trim(),c.slug+': 이미지 설명 필요');

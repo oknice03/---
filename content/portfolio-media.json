@@ -1,4 +1,88 @@
 {
+  "/assets/img/final/kolink-company-profile/01_cover.webp": {
+    "width": 1920,
+    "height": 1358,
+    "thumbnail": "/assets/img/final/kolink-company-profile/01_cover-card.webp",
+    "thumbWidth": 1100,
+    "thumbHeight": 778
+  },
+  "/assets/img/final/kolink-company-profile/02_services.webp": {
+    "width": 1920,
+    "height": 1358,
+    "thumbnail": "/assets/img/final/kolink-company-profile/02_services-card.webp",
+    "thumbWidth": 1100,
+    "thumbHeight": 778
+  },
+  "/assets/img/final/kolink-company-profile/03_strengths.webp": {
+    "width": 1920,
+    "height": 1358,
+    "thumbnail": "/assets/img/final/kolink-company-profile/03_strengths-card.webp",
+    "thumbWidth": 1100,
+    "thumbHeight": 778
+  },
+  "/assets/img/final/kolink-company-profile/04_safety_quality.webp": {
+    "width": 1920,
+    "height": 1358,
+    "thumbnail": "/assets/img/final/kolink-company-profile/04_safety_quality-card.webp",
+    "thumbWidth": 1100,
+    "thumbHeight": 778
+  },
+  "/assets/img/final/harnex-company-profile/harnex-01-cover.webp": {
+    "width": 2400,
+    "height": 1697,
+    "thumbnail": "/assets/img/final/harnex-company-profile/harnex-01-cover-card.webp",
+    "thumbWidth": 1100,
+    "thumbHeight": 778
+  },
+  "/assets/img/final/harnex-company-profile/harnex-02-vision.webp": {
+    "width": 2400,
+    "height": 1697,
+    "thumbnail": "/assets/img/final/harnex-company-profile/harnex-02-vision-card.webp",
+    "thumbWidth": 1100,
+    "thumbHeight": 778
+  },
+  "/assets/img/final/harnex-company-profile/harnex-03-strengths.webp": {
+    "width": 2400,
+    "height": 1697,
+    "thumbnail": "/assets/img/final/harnex-company-profile/harnex-03-strengths-card.webp",
+    "thumbWidth": 1100,
+    "thumbHeight": 778
+  },
+  "/assets/img/final/harnex-company-profile/harnex-04-products.webp": {
+    "width": 2400,
+    "height": 1697,
+    "thumbnail": "/assets/img/final/harnex-company-profile/harnex-04-products-card.webp",
+    "thumbWidth": 1100,
+    "thumbHeight": 778
+  },
+  "/assets/img/final/harnex-company-profile/harnex-05-customization.webp": {
+    "width": 2400,
+    "height": 1697,
+    "thumbnail": "/assets/img/final/harnex-company-profile/harnex-05-customization-card.webp",
+    "thumbWidth": 1100,
+    "thumbHeight": 778
+  },
+  "/assets/img/final/harnex-company-profile/harnex-06-process.webp": {
+    "width": 2400,
+    "height": 1697,
+    "thumbnail": "/assets/img/final/harnex-company-profile/harnex-06-process-card.webp",
+    "thumbWidth": 1100,
+    "thumbHeight": 778
+  },
+  "/assets/img/final/harnex-company-profile/harnex-07-quality.webp": {
+    "width": 2400,
+    "height": 1697,
+    "thumbnail": "/assets/img/final/harnex-company-profile/harnex-07-quality-card.webp",
+    "thumbWidth": 1100,
+    "thumbHeight": 778
+  },
+  "/assets/img/final/harnex-company-profile/harnex-08-cooperation.webp": {
+    "width": 2400,
+    "height": 1697,
+    "thumbnail": "/assets/img/final/harnex-company-profile/harnex-08-cooperation-card.webp",
+    "thumbWidth": 1100,
+    "thumbHeight": 778
+  },
   "/assets/img/card-covers/aerospace-profile.png": {
     "width": 1400,
     "height": 993,

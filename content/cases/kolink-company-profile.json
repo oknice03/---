@@ -1,0 +1,95 @@
+{
+  "slug": "kolink-company-profile",
+  "status": "ready",
+  "order": 1,
+  "title": "코링크 | 산업 플랜트 시공·유지보수 회사소개서",
+  "category": "산업·플랜트",
+  "summary": "유럽 산업 현장의 시공과 정비를 연결하는 코링크의 회사소개서 디자인입니다.",
+  "updated": "2026-11-19",
+  "source": "대표 승인 공개용 완성본 및 제작 담당 제공 등록 원고 (2026-11-19)",
+  "storyKind": "design",
+  "layout": "curated-gallery",
+  "cardImage": {
+    "src": "/assets/img/final/kolink-company-profile/01_cover.webp",
+    "alt": "코링크 산업 플랜트 시공 및 유지보수 회사소개서 표지",
+    "caption": "코링크 산업 플랜트 시공 및 유지보수 회사소개서 표지",
+    "kind": "cover",
+    "width": 1920,
+    "height": 1358,
+    "includesCover": true
+  },
+  "images": [
+    {
+      "src": "/assets/img/final/kolink-company-profile/01_cover.webp",
+      "alt": "코링크 산업 플랜트 시공 및 유지보수 회사소개서 표지",
+      "caption": "코링크 산업 플랜트 시공 및 유지보수 회사소개서 표지",
+      "kind": "final",
+      "width": 1920,
+      "height": 1358
+    },
+    {
+      "src": "/assets/img/final/kolink-company-profile/02_services.webp",
+      "alt": "코링크 주요 사업영역과 유럽 현지 행정 지원 소개 페이지",
+      "caption": "코링크 주요 사업영역과 유럽 현지 행정 지원 소개 페이지",
+      "kind": "final",
+      "width": 1920,
+      "height": 1358
+    },
+    {
+      "src": "/assets/img/final/kolink-company-profile/03_strengths.webp",
+      "alt": "코링크 유럽 현장 경험과 현지 운영 역량을 소개하는 경쟁력 페이지",
+      "caption": "코링크 유럽 현장 경험과 현지 운영 역량을 소개하는 경쟁력 페이지",
+      "kind": "final",
+      "width": 1920,
+      "height": 1358
+    },
+    {
+      "src": "/assets/img/final/kolink-company-profile/04_safety_quality.webp",
+      "alt": "코링크 안전 및 품질관리 내용을 정리한 회사소개서 페이지",
+      "caption": "코링크 안전 및 품질관리 내용을 정리한 회사소개서 페이지",
+      "kind": "final",
+      "width": 1920,
+      "height": 1358
+    }
+  ],
+  "sections": [
+    {
+      "heading": "산업 현장의 역량을 정리한 회사소개서",
+      "text": "산업 설비 이미지와 네이비·실버 색상을 중심으로 사업영역과 현장 지원 역량을 정리했습니다.\n표지에서 내지까지 이어지는 곡선과 이미지 톤으로 통일감을 주고, 본문은 핵심 내용과 설명의 위계를 나눠 읽기 쉽게 구성했습니다.\n배경에는 생성·합성 비주얼이 포함되어 있습니다."
+    },
+    {
+      "heading": "주요 사업",
+      "text": "코링크 주요 사업영역과 유럽 현지 행정 지원 소개 페이지.",
+      "image": 1
+    },
+    {
+      "heading": "경쟁력",
+      "text": "코링크 유럽 현장 경험과 현지 운영 역량을 소개하는 경쟁력 페이지.",
+      "image": 2
+    },
+    {
+      "heading": "안전·품질관리",
+      "text": "코링크 안전 및 품질관리 내용을 정리한 회사소개서 페이지.",
+      "image": 3
+    }
+  ],
+  "highlights": [
+    "산업 설비 이미지와 네이비·실버 색상으로 사업의 성격을 표현했습니다.",
+    "표지와 내지에 곡선과 이미지 톤을 일관되게 적용했습니다.",
+    "주요 사업·경쟁력·안전 및 품질관리의 핵심 정보를 구분했습니다."
+  ],
+  "facts": [
+    {
+      "label": "고객",
+      "value": "코링크(KO LINK)"
+    },
+    {
+      "label": "공개 디자인",
+      "value": "표지 포함 4장"
+    }
+  ],
+  "selection": {
+    "mode": "curated",
+    "note": "공개 승인된 최종 페이지를 선별했습니다"
+  }
+}

@@ -2,6 +2,44 @@
   "version": 1,
   "background": "neutral-gray",
   "entries": {
+    "kolink-company-profile": {
+        "cover": "/assets/img/final/kolink-company-profile/01_cover.webp",
+        "interiors": [
+            {
+                "src": "/assets/img/final/kolink-company-profile/02_services.webp",
+                "alt": "코링크 주요 사업영역과 유럽 현지 행정 지원 소개 페이지"
+            },
+            {
+                "src": "/assets/img/final/kolink-company-profile/03_strengths.webp",
+                "alt": "코링크 유럽 현장 경험과 현지 운영 역량을 소개하는 경쟁력 페이지"
+            },
+            {
+                "src": "/assets/img/final/kolink-company-profile/04_safety_quality.webp",
+                "alt": "코링크 안전 및 품질관리 내용을 정리한 회사소개서 페이지"
+            }
+        ],
+        "sortDate": "2026-11-18",
+        "sortBasis": "제작 담당자가 확인한 최신 최종본 날짜"
+    },
+    "harnex-company-profile": {
+        "cover": "/assets/img/final/harnex-company-profile/harnex-01-cover.webp",
+        "interiors": [
+            {
+                "src": "/assets/img/final/harnex-company-profile/harnex-02-vision.webp",
+                "alt": "하넥스 회사소개서 · 비전과 세 가지 경영방침을 정리한 페이지"
+            },
+            {
+                "src": "/assets/img/final/harnex-company-profile/harnex-04-products.webp",
+                "alt": "하넥스 회사소개서 · 제품군별 이미지와 적용 용도를 정리한 페이지"
+            },
+            {
+                "src": "/assets/img/final/harnex-company-profile/harnex-07-quality.webp",
+                "alt": "하넥스 회사소개서 · 실제 검사 사진과 검사 항목을 연결한 페이지"
+            }
+        ],
+        "sortDate": "2026-11-16",
+        "sortBasis": "제작 담당자가 확인한 최신 최종본 날짜"
+    },
     "aerospace-profile": {
       "cover": "/assets/img/card-covers/aerospace-profile.png",
       "interiors": [

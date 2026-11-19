@@ -1,0 +1,152 @@
+{
+  "slug": "harnex-company-profile",
+  "status": "ready",
+  "order": 2,
+  "title": "하넥스 케이블·와이어링 하네스 회사소개서",
+  "category": "제조업·케이블",
+  "summary": "제품과 장비 사진을 바탕으로, 제작 역량과 품질관리 과정을 한눈에 보여주는 회사소개서를 기획했습니다.",
+  "updated": "2026-11-19",
+  "source": "대표 승인 공개용 완성본 및 제작 담당 제공 등록 원고 (2026-11-19)",
+  "storyKind": "production",
+  "layout": "curated-gallery",
+  "cardImage": {
+    "src": "/assets/img/final/harnex-company-profile/harnex-01-cover.webp",
+    "alt": "하넥스 회사소개서 · 생산설비와 케이블 제품으로 사업을 표현한 표지",
+    "caption": "생산설비와 케이블 제품으로 사업을 표현한 표지",
+    "kind": "cover",
+    "width": 2400,
+    "height": 1697,
+    "includesCover": true
+  },
+  "images": [
+    {
+      "src": "/assets/img/final/harnex-company-profile/harnex-01-cover.webp",
+      "alt": "하넥스 회사소개서 · 생산설비와 케이블 제품으로 사업을 표현한 표지",
+      "caption": "생산설비와 케이블 제품으로 사업을 표현한 표지",
+      "kind": "final",
+      "width": 2400,
+      "height": 1697
+    },
+    {
+      "src": "/assets/img/final/harnex-company-profile/harnex-02-vision.webp",
+      "alt": "하넥스 회사소개서 · 비전과 세 가지 경영방침을 정리한 페이지",
+      "caption": "비전과 세 가지 경영방침을 정리한 페이지",
+      "kind": "final",
+      "width": 2400,
+      "height": 1697
+    },
+    {
+      "src": "/assets/img/final/harnex-company-profile/harnex-03-strengths.webp",
+      "alt": "하넥스 회사소개서 · 제작 경험·맞춤 제작·가공 설비·품질 확인을 연결한 구성",
+      "caption": "제작 경험·맞춤 제작·가공 설비·품질 확인을 연결한 구성",
+      "kind": "final",
+      "width": 2400,
+      "height": 1697
+    },
+    {
+      "src": "/assets/img/final/harnex-company-profile/harnex-04-products.webp",
+      "alt": "하넥스 회사소개서 · 제품군별 이미지와 적용 용도를 정리한 페이지",
+      "caption": "제품군별 이미지와 적용 용도를 정리한 페이지",
+      "kind": "final",
+      "width": 2400,
+      "height": 1697
+    },
+    {
+      "src": "/assets/img/final/harnex-company-profile/harnex-05-customization.webp",
+      "alt": "하넥스 회사소개서 · 전선·커넥터·가공 범위를 비교하기 쉽게 정리한 구성",
+      "caption": "전선·커넥터·가공 범위를 비교하기 쉽게 정리한 구성",
+      "kind": "final",
+      "width": 2400,
+      "height": 1697
+    },
+    {
+      "src": "/assets/img/final/harnex-company-profile/harnex-06-process.webp",
+      "alt": "하넥스 회사소개서 · 제작 흐름을 순서대로 보여주는 공정 페이지",
+      "caption": "제작 흐름을 순서대로 보여주는 공정 페이지",
+      "kind": "final",
+      "width": 2400,
+      "height": 1697
+    },
+    {
+      "src": "/assets/img/final/harnex-company-profile/harnex-07-quality.webp",
+      "alt": "하넥스 회사소개서 · 실제 검사 사진과 검사 항목을 연결한 페이지",
+      "caption": "실제 검사 사진과 검사 항목을 연결한 페이지",
+      "kind": "final",
+      "width": 2400,
+      "height": 1697
+    },
+    {
+      "src": "/assets/img/final/harnex-company-profile/harnex-08-cooperation.webp",
+      "alt": "하넥스 회사소개서 · 고객·하넥스·협력사의 역할을 설명하는 구성",
+      "caption": "고객·하넥스·협력사의 역할을 설명하는 구성",
+      "kind": "final",
+      "width": 2400,
+      "height": 1697
+    }
+  ],
+  "sections": [
+    {
+      "heading": "제조 현장의 자료를 고객이 이해하는 회사소개서로",
+      "text": "하넥스는 장비용 케이블과 와이어링 하네스를 제작하는 기업입니다.\n제품의 종류뿐 아니라 장비에 대한 이해, 맞춤 제작 범위, 공정별 검사까지 전달할 수 있도록 회사소개서를 구성했습니다.\n제공받은 원고와 제품·장비 사진을 검토하고, 회사의 강점이 드러나는 순서로 내용을 정리했습니다.\n핵심 메시지와 설명 문구를 다듬고, 사진 보정부터 페이지 디자인까지 하나의 흐름으로 완성했습니다."
+    },
+    {
+      "heading": "비전과 경영방침",
+      "text": "비전과 세 가지 경영방침을 정리한 페이지.",
+      "image": 1
+    },
+    {
+      "heading": "하넥스의 경쟁력",
+      "text": "제작 경험·맞춤 제작·가공 설비·품질 확인을 연결한 구성.",
+      "image": 2
+    },
+    {
+      "heading": "주요 제품",
+      "text": "제품군별 이미지와 적용 용도를 정리한 페이지.",
+      "image": 3
+    },
+    {
+      "heading": "맞춤 제작 범위",
+      "text": "전선·커넥터·가공 범위를 비교하기 쉽게 정리한 구성.",
+      "image": 4
+    },
+    {
+      "heading": "제조공정",
+      "text": "제작 흐름을 순서대로 보여주는 공정 페이지.",
+      "image": 5
+    },
+    {
+      "heading": "품질관리",
+      "text": "실제 검사 사진과 검사 항목을 연결한 페이지.",
+      "image": 6
+    },
+    {
+      "heading": "기술 협력과 제작 지원",
+      "text": "고객·하넥스·협력사의 역할을 설명하는 구성.",
+      "image": 7
+    }
+  ],
+  "highlights": [
+    "주요 생산설비와 케이블 제품을 함께 배치해 회사의 사업을 시각적으로 설명했습니다.",
+    "회색 프레임과 화이트 영역으로 내지 구조를 통일하고, 내용에 맞게 카드와 도식을 구성했습니다.",
+    "고객 제공 사진의 색감·배경·크기·정렬을 다듬어 제품, 제작 과정, 검사 항목을 연결했습니다."
+  ],
+  "facts": [
+    {
+      "label": "고객",
+      "value": "하넥스(HARNEX)"
+    },
+    {
+      "label": "공개 디자인",
+      "value": "표지 포함 8장"
+    },
+    {
+      "label": "작업 범위",
+      "value": "구성 기획·원고 정리 / 핵심 메시지·카피 / 제품·장비 사진 보정 / 표지·내지 디자인 / 편집 가능한 PPT·최종 PDF 제작"
+    }
+  ],
+  "selection": {
+    "mode": "curated",
+    "note": "공개 승인된 최종 페이지를 선별했습니다"
+  },
+  "authorConfirmation": "제작 담당자가 최종 고객 전달본과 등록 원고의 제작 범위를 확인했습니다 (2026-11-19)."
+}

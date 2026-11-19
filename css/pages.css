@@ -244,3 +244,10 @@ main>.pb-representative-video{padding-inline:24px}
 .mp-card .mp-art-stage.mp-art-solo .mp-art-cover{width:76%;left:12%;top:50%;transform:translateY(-50%)}
 .mp-card a .mp-art-stage .mp-art-sheet{transition:transform .25s}
 .mp-card a:hover .mp-art-stage .mp-art-inside-0{transform:translate(-4px,-6px)}
+
+/* Approved November additions: original cover + three unobscured interiors. */
+.mp-card .mp-art-stage:is([data-art-case="kolink-company-profile"],[data-art-case="harnex-company-profile"]) .mp-art-background{display:block}
+.mp-card .mp-art-stage:is([data-art-case="kolink-company-profile"],[data-art-case="harnex-company-profile"]) .mp-art-cover{width:64%;left:4%;top:50%;bottom:auto;transform:translateY(-50%)}
+.mp-card .mp-art-stage:is([data-art-case="kolink-company-profile"],[data-art-case="harnex-company-profile"]) .mp-art-inside{display:block;width:24%;left:auto;right:4%;top:7%;bottom:auto;transform:none;border:0;box-shadow:0 8px 20px #0005}
+.mp-card .mp-art-stage:is([data-art-case="kolink-company-profile"],[data-art-case="harnex-company-profile"]) .mp-art-inside-1{top:37%}
+.mp-card .mp-art-stage:is([data-art-case="kolink-company-profile"],[data-art-case="harnex-company-profile"]) .mp-art-inside-2{top:67%}

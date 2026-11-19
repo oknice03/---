@@ -1,5 +1,7 @@
 // Decorative backgrounds only; never recreate or alter client slide artwork.
 export const directions = {
+ 'kolink-company-profile':['metal','rail'],
+ 'harnex-company-profile':['metal','rail'],
  'aerospace-profile':['space','rail'],
  'aerospace-ai-profile':['space','rail'],
  'technology-profile':['architecture','reverse'],
@@ -46,5 +48,5 @@ const singleUseScenes={
  'interior-brand-profile':'atelier-v1'
 };
 export const backgrounds=Object.fromEntries(Object.keys(directions).map(slug=>[
- slug, '/assets/img/portfolio-scenes/'+(singleUseScenes[slug]??slug+'-v2')+'.webp'
+ slug, '/assets/img/portfolio-scenes/'+(['kolink-company-profile','harnex-company-profile'].includes(slug)?slug+'.svg':(singleUseScenes[slug]??slug+'-v2')+'.webp')
 ]));
