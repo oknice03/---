@@ -24,7 +24,7 @@ assert(html.includes('누가 만드나요?')&&html.includes('저를 소개합니
 assert(html.includes('class="pb-credentials"')&&html.includes('id="specialty"'),'상세이력·기존앵커 보존');
 const maker=html.match(/<section[^>]*id="about"[\s\S]*?<\/section>/)?.[0];
 assert(maker&&maker.includes('watch?v=DuzUu4Pd5dg'),'대표 소개 영상 연결');
-assert(hero.includes('회사소개서는 디자인이 아닙니다.')&&hero.includes('우리 회사를 정리하는')&&hero.includes('컨설팅입니다.'),'컨설팅 관점 첫 화면');
+assert(hero.replace(/<[^>]+>/g,'').includes('회사소개서는 디자인이 아닙니다.')&&hero.includes('우리 회사를 정리하는')&&hero.includes('컨설팅입니다.'),'컨설팅 관점 첫 화면');
 assert(html.includes('<p class="pb-statement-tag">강점부터 찾고, 디자인은 마지막에.</p>')&&html.includes('대표님이 먼저 우리 회사를 확신하게 됩니다.')&&hero.includes('원고 준비 없이 상담 시작하기'),'답변 문구 강조·상담 버튼');
 assert(!hero.includes('제가 묻겠습니다.')&&!hero.includes('이메일로')&&!hero.includes('편하게 답해주세요.'),'요청한 첫 화면 문구 삭제');
 assert(html.includes('모두 기본 포함')&&html.includes('기획 · 문구 · 디자인 · PPT 원본'),'기본 포함 범위');

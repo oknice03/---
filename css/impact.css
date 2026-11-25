@@ -268,3 +268,7 @@
 .service-home .qb-call,.service-home .qb-call span,.service-home .qb-call strong{color:#fff}
 .service-home .qb-up,.service-home .qb-down{color:#2b2b2b}
 .service-home .section-title{margin-left:auto;margin-right:auto}
+/* 첫 화면 윗줄: 2줄 + 키워드 노란색 강조 (공사지명원 사이트와 동일) */
+.service-home #hero .pb-hero-topic{font-size:clamp(32px,5vw,68px);font-weight:700;line-height:1.22;letter-spacing:-.045em;color:#fff;margin-bottom:22px}
+.service-home #hero .pb-hero-topic br{display:inline!important}
+.service-home #hero .pb-hero-topic-key{font-weight:800;color:var(--yellow)}
