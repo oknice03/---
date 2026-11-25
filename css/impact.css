@@ -275,3 +275,10 @@
 /* 진행 방식 태그 크게 강조 */
 .service-home #approach .pb-statement-tag{margin-bottom:34px;padding:16px 38px 18px;font-size:clamp(24px,3.4vw,42px);font-weight:800;letter-spacing:-.04em;line-height:1.3;background:linear-gradient(120deg,#1287ff,#0050c0);box-shadow:0 16px 36px rgba(10,100,220,.3)}
 @media(max-width:720px){.service-home #approach .pb-statement-tag{padding:12px 22px 14px;border-radius:22px}}
+/* 유튜브: 대표 영상 크게 바로 재생 + 카드 2개 */
+.service-home .pb-youtube-feature{max-width:960px;margin:44px auto 0}
+.service-home .pb-youtube-feature-frame{position:relative;aspect-ratio:16/9;border-radius:22px;overflow:hidden;background:#0b1422;box-shadow:0 20px 50px rgba(20,40,80,.14)}
+.service-home .pb-youtube-feature-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.service-home .pb-youtube-feature-title{margin-top:16px;text-align:center;font-size:clamp(17px,1.8vw,21px);font-weight:700;color:var(--ink)}
+.service-home .pb-youtube-grid{grid-template-columns:repeat(2,minmax(0,1fr));max-width:960px;margin-left:auto;margin-right:auto}
+@media(max-width:800px){.service-home .pb-youtube-grid{grid-template-columns:1fr}}
