@@ -17,7 +17,7 @@ assert.equal((html.match(/class="faq-item"/g)||[]).length,JSON.parse(await readF
 assert.equal((html.match(/data-case data-category/g)||[]).length,6,'메인 선별 사례 6개');
 assert(!html.includes('회사의 성격이 보이는 디자인.'),'요청한 포트폴리오 소제목 삭제');
 assert(!html.includes('표지부터 내부 페이지까지, 업종별 실제 제작 사례를 확인하세요.'),'포트폴리오 안내 문장 삭제');
-for(const id of ['3NKJgDbHNmk','pVJrOdfOXfk','7NQv5mw-6B0'])assert(html.includes('https://www.youtube.com/watch?v='+id)&&html.includes('https://i.ytimg.com/vi/'+id+'/hqdefault.jpg'),'본인 채널 영상·썸네일: '+id);
+for(const id of ['HQPtA7D8-GI','zrYP63ddgQU','fE096Ex_QEs'])assert(html.includes('https://www.youtube.com/watch?v='+id)&&html.includes('https://i.ytimg.com/vi/'+id+'/hqdefault.jpg'),'본인 채널 영상·썸네일: '+id);
 assert.equal((html.match(/class="pb-youtube-card"/g)||[]).length,3,'회사소개서 영상 3개');
 assert(!html.includes('class="pb-career-preview"')&&!html.includes('회사소개서 한 분야에 집중합니다.'),'요청한 전문분야·요약이력 영역 삭제');
 assert(html.includes('누가 만드나요?')&&html.includes('저를 소개합니다.')&&html.includes('youtube-nocookie.com/embed/DuzUu4Pd5dg'),'대표 소개 영상 예정 영역');
