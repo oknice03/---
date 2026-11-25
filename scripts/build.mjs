@@ -140,6 +140,19 @@ home=home.replace(/(<meta (?:property="og:image"|name="twitter:image") content="
 home=home.replace(/(<section class="section contact-section" id="contact">)/,'<section class="section section-alt"><div class="wrap"><div class="mp-heading-row"><h2>'+site.service+' 준비 가이드</h2><a class="mp-link" href="/guides/">가이드 전체 보기 →</a></div>'+guideCards()+'</div></section>$1');
 pages.unshift({url:'/',html:home.replace('</head>',noScript+'</head>'),date:updated,image:cardImage(cases[0]).src,exclude:false});
 
+// 제안서 제작 페이지(/proposal/): 메인과 같은 디자인, 사례는 회사소개서 최신 6개를 "같은 기준" 근거로 노출.
+if(site.id==='company') {
+ let proposal=await readFile(path.join(root,'proposal.html'),'utf8');
+ proposal=proposal.replace(/<nav class="main-nav" id="mainNav">[\s\S]*?<\/nav>/,nav());
+ proposal=proposal.replace(/<footer class="site-footer">[\s\S]*?<\/footer>/,footer());
+ proposal=proposal.replace('<!--PROPOSAL_CASES-->',cases.slice(0,6).map(card).join(''));
+ proposal=proposal.replace('<!--REPRESENTATIVE_VIDEO-->',representativePlayer());
+ const proposalPage={'@type':'WebPage','@id':site.domain+'/proposal/#webpage',url:site.domain+'/proposal/',name:'제안서 제작',description:'입찰·사업·영업 제안서 기획과 디자인',inLanguage:'ko-KR',isPartOf:{'@id':website['@id']},publisher:{'@id':orgId},dateModified:updated};
+ proposal=proposal.replace('<!--SCHEMA-->',schema([...base,proposalPage]));
+ proposal=proposal.replace('</head>','<meta name="robots" content="'+(noindex?'noindex,follow':'index,follow,max-image-preview:large')+'">'+noScript+'</head>');
+ pages.push({url:'/proposal/',html:proposal,date:updated,image:'/assets/img/profile.png',exclude:false});
+}
+
 const llmsText=buildLlmsText(site,cases,guides);
 for(const p of pages) if(!p.exclude) p.html=p.html.replace('</head>','<link rel="describedby" href="/llms.txt" type="text/plain"></head>');
 

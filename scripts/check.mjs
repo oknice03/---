@@ -29,8 +29,8 @@ for(const file of pages) {
 
   for(const heading of html.matchAll(/<h2[^>]*>([\s\S]*?)<\/h2>/g)){
     const text=unescape(heading[1].replace(/<[^>]+>/g,''));
-    assert(/(?:회사소개서|공사지명원) 제작/.test(text),rel+': H2 핵심 주제 확인 '+text);
-    assert.equal((text.match(/(?:회사소개서|공사지명원) 제작/g)||[]).length,1,rel+': H2 키워드 중복 '+text);
+    assert(/(?:회사소개서|공사지명원|제안서) 제작/.test(text),rel+': H2 핵심 주제 확인 '+text);
+    assert.equal((text.match(/(?:회사소개서|공사지명원|제안서) 제작/g)||[]).length,1,rel+': H2 키워드 중복 '+text);
   }
   if(rel==='index.html'){
     const faq=JSON.parse(await readFile('content/faq.json','utf8'));
